@@ -6,12 +6,11 @@ type Props = {
 };
 
 export const CartSidebar = ({ isOpen, toggle }: Props) => {
-  console.log(isOpen);
   return (
     <>
       {/* backdrop used to close sidebar when clicked */}
       <div
-        className={`absolute top-0 right-0 bottom-0 left-0 bg-black bg-opacity-25 ${
+        className={`fixed top-0 right-0 bottom-0 left-0 bg-black bg-opacity-25 z-10 ${
           !isOpen && "hidden"
         }`}
         onClick={toggle}
@@ -19,8 +18,8 @@ export const CartSidebar = ({ isOpen, toggle }: Props) => {
 
       {/* cart sidebar */}
       <div
-        className={`absolute w-full md:w-80 top-0 bottom-0 bg-white p-4 border-l-2 transition-[right] duration-300 z-10 ${
-          isOpen ? "right-0" : "-right-full md:-right-80"
+        className={`absolute opacity-0 right-0 top-0 bottom-0 bg-white border-l-2 transition-[width, padding, opacity] duration-300 z-20 ${
+          isOpen && "opacity-100 w-full md:w-80 p-4"
         }`}
       >
         <div className="flex items-center">

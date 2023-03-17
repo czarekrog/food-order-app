@@ -2,7 +2,7 @@ import { BsCart4, BsSearch } from "react-icons/bs";
 import { BiUser } from "react-icons/bi";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { CartSidebar } from "./CartSidebar/CartSidebar";
+import { CartSidebar } from "./CartSidebar";
 
 export const NavBar = () => {
   const [activeDeliveryOption, setActiveDeliveryOption] = useState<
@@ -16,7 +16,7 @@ export const NavBar = () => {
 
   return (
     <div className="">
-      <div className="w-screen p-4 flex justify-between items-center gap-8 border-b-2 flex-wrap">
+      <div className="w-full p-4 flex justify-between items-center gap-8 border-b-2 flex-wrap">
         <Link to="/" className="text-3xl md:order-1">
           Foodify
         </Link>
