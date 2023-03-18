@@ -7,12 +7,10 @@ type Props = {
 
 export const CartSidebar = ({ isOpen, toggle }: Props) => {
   return (
-    <>
+    <div className={`${!isOpen && "hidden"}`}>
       {/* backdrop used to close sidebar when clicked */}
       <div
-        className={`fixed top-0 right-0 bottom-0 left-0 bg-black bg-opacity-25 z-10 ${
-          !isOpen && "hidden"
-        }`}
+        className={`fixed top-0 right-0 bottom-0 left-0 bg-black bg-opacity-25 z-10`}
         onClick={toggle}
       ></div>
 
@@ -30,6 +28,6 @@ export const CartSidebar = ({ isOpen, toggle }: Props) => {
           <span>No items to display...</span>
         </div>
       </div>
-    </>
+    </div>
   );
 };

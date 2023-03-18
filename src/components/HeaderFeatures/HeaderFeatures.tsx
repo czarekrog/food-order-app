@@ -2,7 +2,7 @@ import { SingleHeaderFeature } from "./SingleHeaderFeature";
 
 export const HeaderFeatures = () => {
   return (
-    <div className="flex px-8 py-2 mt-8 gap-8 overflow-x-scroll">
+    <div className="flex px-8 py-2 gap-8 overflow-x-scroll">
       <SingleHeaderFeature
         bgColor="bg-green-400"
         imageUrl="https://cdn.pixabay.com/photo/2019/04/24/12/11/burger-4152013_960_720.jpg"
