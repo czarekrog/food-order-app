@@ -3,12 +3,19 @@ import { BiUser } from "react-icons/bi";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { CartSidebar } from "./CartSidebar";
+import { useSelector } from "react-redux";
+import { RootState } from "../../app/store";
+import { selectCartItemsCount } from "../../features/CartSlice";
 
 export const NavBar = () => {
   const [activeDeliveryOption, setActiveDeliveryOption] = useState<
     "Delivery" | "Pickup"
   >("Delivery");
   const [isOpen, setIsOpen] = useState(false);
+
+  const cartItemsCount = useSelector((state: RootState) =>
+    selectCartItemsCount(state)
+  );
 
   const toggleCartSidebar = () => {
     setIsOpen((prev) => !prev);
@@ -51,7 +58,7 @@ export const NavBar = () => {
             onClick={toggleCartSidebar}
           >
             <BsCart4 />
-            Cart · 0
+            Cart · {cartItemsCount}
           </button>
           <Link
             to=""

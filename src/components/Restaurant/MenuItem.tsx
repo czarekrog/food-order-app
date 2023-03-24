@@ -1,13 +1,24 @@
 type Props = {
+  id: string;
+  name: string;
+  price: number;
+  discountedPrice: number | null;
   isPopular?: boolean;
   selectMenuItem: React.Dispatch<React.SetStateAction<string | null>>;
 };
 
-export const MenuItem = ({ isPopular = false, selectMenuItem }: Props) => {
+export const MenuItem = ({
+  id,
+  name,
+  price,
+  discountedPrice,
+  isPopular = false,
+  selectMenuItem,
+}: Props) => {
   return (
     <div
       className="bg-white rounded-sm overflow-hidden shadow-sm cursor-pointer relative"
-      onClick={() => selectMenuItem("1")}
+      onClick={() => selectMenuItem(id)}
     >
       {/* popular badge */}
       {isPopular && (
@@ -21,8 +32,19 @@ export const MenuItem = ({ isPopular = false, selectMenuItem }: Props) => {
         className="w-full h-48 object-cover"
       />
       <div className="p-2 flex flex-col">
-        <span className="text-lg">Menu item name</span>
-        <span>$8.99</span>
+        <span className="text-lg">{name}</span>
+        <div>
+          <span
+            className={`${
+              discountedPrice ? "inline-block text-red-500" : "hidden"
+            }`}
+          >
+            ${discountedPrice}
+          </span>
+          <span className={`${discountedPrice && "line-through ml-2"}`}>
+            ${price}
+          </span>
+        </div>
       </div>
     </div>
   );

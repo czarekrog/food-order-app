@@ -2,6 +2,8 @@ import { RestaurantFiltersSideBar } from "./RestaurantFiltersSideBar";
 import { RestaurantListItem } from "./RestaurantListItem";
 import { useState } from "react";
 import { SidebarToggle } from "./SidebarToggle";
+import { useSelector } from "react-redux";
+import { RootState } from "../../app/store";
 
 export const RestaurantsList = () => {
   const [isFiltersSidebarOpen, setIsFiltersSidebarOpen] = useState(false);
@@ -9,6 +11,10 @@ export const RestaurantsList = () => {
   const toggleFiltersSidebar = () => {
     setIsFiltersSidebarOpen((prev) => !prev);
   };
+
+  const restaurants = useSelector(
+    (state: RootState) => state.restaurantsReducer.restaurants
+  );
 
   return (
     <div className="flex">
@@ -24,14 +30,18 @@ export const RestaurantsList = () => {
             isFiltersSidebarOpen && "hidden"
           }`}
         >
-          <RestaurantListItem id="1" />
-          <RestaurantListItem id="2" />
-          <RestaurantListItem id="3" />
-          <RestaurantListItem id="4" />
-          <RestaurantListItem id="5" />
-          <RestaurantListItem id="6" />
-          <RestaurantListItem id="7" />
-          <RestaurantListItem id="8" />
+          {restaurants.map((restaurant) => (
+            <RestaurantListItem
+              key={restaurant.id}
+              id={restaurant.id}
+              name={restaurant.name}
+              ratings={restaurant.ratings}
+              deliveryOptions={restaurant.deliveryOptions}
+              deliveryPrice={restaurant.deliveryPrice}
+              deliveryTimeRange={restaurant.deliveryTimeRange}
+              mainPhotoUrl={restaurant.mainPhotoUrl}
+            />
+          ))}
         </div>
       </div>
     </div>

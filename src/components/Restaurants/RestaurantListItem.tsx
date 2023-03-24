@@ -1,30 +1,42 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
+import Restaurant from "../../types/Restaurant";
+import calculateAverage from "../../utils/calculateAverage";
+import { MdOutlineDeliveryDining } from "react-icons/md";
 
-type Props = {
-  id: string;
-};
+type Props = Omit<Restaurant, "categoryId" | "menuCategories" | "menuItems">;
 
-export const RestaurantListItem = ({ id }: Props) => {
+export const RestaurantListItem = ({
+  id,
+  name,
+  ratings,
+  deliveryTimeRange,
+  deliveryPrice,
+  mainPhotoUrl,
+}: Props) => {
   const navigate = useNavigate();
+
   return (
     <div
       className="flex flex-col rounded-b-lg cursor-pointer hover:bg-gray-100"
       onClick={() => navigate(`restaurant/${id}`)}
     >
       <img
-        src="https://cdn.pixabay.com/photo/2017/09/30/15/10/plate-2802332_960_720.jpg"
+        src={mainPhotoUrl}
         alt="Restaurant"
         className="max-h-48 object-cover rounded-sm"
       />
       <div className="p-2">
         <div className="flex justify-between">
-          <span className="text-2xl">Restaurant Name</span>
+          <span className="text-2xl">{name}</span>
           <div className="bg-gray-200 flex justify-center items-center p-2 rounded-full font-bold">
-            4.6
+            {calculateAverage(ratings)}
           </div>
         </div>
-        <span>Delivery: $2.99 · 15-25mins</span>
+        <div className="flex items-center gap-1">
+          <MdOutlineDeliveryDining className="text-xl" />
+          {deliveryPrice === 0 ? "Free" : `$${deliveryPrice}`} ·
+          {deliveryTimeRange}
+        </div>
       </div>
     </div>
   );

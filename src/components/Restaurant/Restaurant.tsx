@@ -1,39 +1,61 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { BsStarFill } from "react-icons/bs";
 import { BiCategoryAlt } from "react-icons/bi";
 import { IoClose } from "react-icons/io5";
 import { CategoriesSidebar } from "./CategoriesSidebar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MenuItem } from "./MenuItem";
 import { MenuItemPopup } from "./MenuItemPopup";
+import { useSelector } from "react-redux";
+import { selectRestaurantById } from "../../features/RestaurantsSlice";
+import { RootState } from "../../app/store";
+import calculateAverage from "../../utils/calculateAverage";
 
 export const Restaurant = () => {
   const [isCategoriesSidebarOpen, setIsCategoriesSidebarOpen] = useState(false);
   const [selectedMenuItem, setSelectedMenuItem] = useState<string | null>(null);
   const { id } = useParams();
+  const navigate = useNavigate();
 
   const toggleCategoriesSidebar = () => {
     setIsCategoriesSidebarOpen((prev) => !prev);
   };
 
+  const restaurant = useSelector((state: RootState) =>
+    selectRestaurantById(state, id!)
+  );
+
+  useEffect(() => {
+    if (!restaurant) {
+      navigate("/");
+    }
+  }, [navigate, restaurant]);
+
   return (
     <div>
       <MenuItemPopup
         itemId={selectedMenuItem}
+        restaurantId={restaurant!.id}
         selectMenuItem={setSelectedMenuItem}
       />
       <img
-        src="https://cdn.pixabay.com/photo/2017/09/30/15/10/plate-2802332_960_720.jpg"
+        src={restaurant?.mainPhotoUrl}
         alt="Restaurant header"
         className="w-screen h-48 md:h-80 object-cover"
       />
       <div className="flex flex-col p-8">
-        <span className="text-3xl font-bold">Restaurant name {id}</span>
+        <span className="text-3xl font-bold">{restaurant?.name}</span>
         <div className="font-medium flex items-center my-1">
           <BsStarFill />
-          <span className="ml-2">{`4.6 (100+ ratings)`}</span>
+          <span className="ml-2">{`${calculateAverage(restaurant?.ratings!)} (${
+            restaurant?.ratings.length! > 100
+              ? "100+"
+              : restaurant?.ratings.length
+          } ratings)`}</span>
         </div>
-        <span className="text-gray-500">Delivery in: 15 · 25 mins</span>
+        <span className="text-gray-500">
+          Delivery in: {restaurant?.deliveryTimeRange}
+        </span>
       </div>
       <div className="flex">
         <CategoriesSidebar
@@ -61,11 +83,17 @@ export const Restaurant = () => {
               isCategoriesSidebarOpen && "hidden"
             }`}
           >
-            <MenuItem selectMenuItem={setSelectedMenuItem} isPopular={true} />
-            <MenuItem selectMenuItem={setSelectedMenuItem} />
-            <MenuItem selectMenuItem={setSelectedMenuItem} />
-            <MenuItem selectMenuItem={setSelectedMenuItem} />
-            <MenuItem selectMenuItem={setSelectedMenuItem} />
+            {restaurant?.menuItems.map((menuItem) => (
+              <MenuItem
+                key={menuItem.id}
+                selectMenuItem={setSelectedMenuItem}
+                id={menuItem.id}
+                name={menuItem.name}
+                price={menuItem.price}
+                discountedPrice={menuItem.discountedPrice}
+                isPopular={menuItem.isPopular}
+              />
+            ))}
           </div>
         </div>
       </div>

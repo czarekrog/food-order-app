@@ -1,19 +1,34 @@
 import React, { useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { FaPlus, FaMinus } from "react-icons/fa";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../../app/store";
+import { selectMenuItemById } from "../../features/RestaurantsSlice";
+import { addToCart } from "../../features/CartSlice";
 
 type Props = {
   itemId: string | null;
+  restaurantId: string | null;
   selectMenuItem: React.Dispatch<React.SetStateAction<string | null>>;
 };
 
-export const MenuItemPopup = ({ itemId, selectMenuItem }: Props) => {
+export const MenuItemPopup = ({
+  itemId,
+  restaurantId,
+  selectMenuItem,
+}: Props) => {
   const [addToCartAmount, setAddToCartAmount] = useState(1);
   const closePopup = () => selectMenuItem(null);
+  const dispatch = useDispatch();
+
+  const menuItem = useSelector((state: RootState) =>
+    selectMenuItemById(state, restaurantId!, itemId!)
+  );
+
   return (
     <div
       className={`fixed top-0 right-0 bottom-0 left-0 z-50 bg-black/30 justify-center items-center overscroll-contain ${
-        itemId ? "flex" : "hidden"
+        menuItem ? "flex" : "hidden"
       }`}
       onClick={closePopup}
     >
@@ -29,8 +44,8 @@ export const MenuItemPopup = ({ itemId, selectMenuItem }: Props) => {
             <IoClose />
           </div>
         </div>
-        <div className="flex flex-col p-4 overflow-y-scroll">
-          <span className="text-xl">Menu position name</span>
+        <div className="flex flex-col p-4 overflow-y-scroll h-full">
+          <span className="text-xl">{menuItem?.name}</span>
           <div className="flex w-full justify-center items-center my-4">
             <button
               className="w-10 h-10 flex justify-center items-center bg-black text-white text-lg rounded-full"
@@ -49,8 +64,19 @@ export const MenuItemPopup = ({ itemId, selectMenuItem }: Props) => {
             >
               <FaPlus />
             </button>
-            <button className="bg-black px-4 py-2 text-white ml-4 rounded-full hover:bg-gray-800">
-              Add to order
+            <button
+              className="bg-black px-4 py-2 text-white ml-4 rounded-full hover:bg-gray-800"
+              onClick={() =>
+                dispatch(
+                  addToCart({
+                    ...menuItem!,
+                    qty: addToCartAmount,
+                    restaurantId: restaurantId!,
+                  })
+                )
+              }
+            >
+              Add to cart
             </button>
           </div>
           <span>
