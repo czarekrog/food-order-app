@@ -61,13 +61,13 @@ export const NavBar = () => {
             Cart · {cartItemsCount}
           </button>
           <Link
-            to=""
+            to="auth/sign-in"
             className="px-8 py-1 bg-gray-200 hover:bg-gray-300 rounded-full hidden md:block"
           >
             Sign In
           </Link>
           <Link
-            to=""
+            to="auth/sign-up"
             className="px-8 py-1 bg-gray-200 hover:bg-gray-300 rounded-full hidden md:block"
           >
             Sign Up
