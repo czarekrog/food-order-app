@@ -1,6 +1,7 @@
 import DeliveryOptions from "./DeliveryOption";
 import MenuCategory from "./MenuCategory";
 import MenuItem from "./MenuItem";
+import PriceRange from "./PriceRange";
 
 type Restaurant = {
   id: string;
@@ -13,6 +14,10 @@ type Restaurant = {
   categoryId: string;
   menuCategories: MenuCategory[];
   menuItems: MenuItem[];
+  priceRange: PriceRange;
+  foodCategories: string[];
+  sale: boolean;
+  topEat: boolean;
 };
 
 export default Restaurant;

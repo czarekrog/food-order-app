@@ -3,18 +3,22 @@ import { BiUser } from "react-icons/bi";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { CartSidebar } from "./CartSidebar";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../app/store";
 import { selectCartItemsCount } from "../../features/CartSlice";
+import { setDeliveryOptionFilter } from "../../features/FiltersSlice";
+import DeliveryOption from "../../types/DeliveryOption";
 
 export const NavBar = () => {
-  const [activeDeliveryOption, setActiveDeliveryOption] = useState<
-    "Delivery" | "Pickup"
-  >("Delivery");
   const [isOpen, setIsOpen] = useState(false);
+  const dispatch = useDispatch();
 
   const cartItemsCount = useSelector((state: RootState) =>
     selectCartItemsCount(state)
+  );
+
+  const { deliveryOption } = useSelector(
+    (state: RootState) => state.filtersReducer
   );
 
   const toggleCartSidebar = () => {
@@ -30,17 +34,21 @@ export const NavBar = () => {
         <div className="h-12 hidden md:flex items-center gap-1 bg-gray-200 px-2 rounded-full md:order-1">
           <button
             className={`rounded-full px-5 py-2 font-medium transition-colors duration-500 ${
-              activeDeliveryOption === "Delivery" && "bg-white font-bold"
+              deliveryOption === DeliveryOption.delivery && "bg-white font-bold"
             }`}
-            onClick={() => setActiveDeliveryOption("Delivery")}
+            onClick={() => {
+              dispatch(setDeliveryOptionFilter(DeliveryOption.delivery));
+            }}
           >
             Delivery
           </button>
           <button
             className={`rounded-full px-5 py-2 font-medium transition-colors duration-500 ${
-              activeDeliveryOption === "Pickup" && "bg-white font-bold"
+              deliveryOption === DeliveryOption.pickup && "bg-white font-bold"
             }`}
-            onClick={() => setActiveDeliveryOption("Pickup")}
+            onClick={() => {
+              dispatch(setDeliveryOptionFilter(DeliveryOption.pickup));
+            }}
           >
             Pick Up
           </button>

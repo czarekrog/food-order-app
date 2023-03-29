@@ -3,7 +3,10 @@ import Restaurant from "../../types/Restaurant";
 import calculateAverage from "../../utils/calculateAverage";
 import { MdOutlineDeliveryDining } from "react-icons/md";
 
-type Props = Omit<Restaurant, "categoryId" | "menuCategories" | "menuItems">;
+type Props = Omit<
+  Restaurant,
+  "categoryId" | "menuCategories" | "menuItems" | "sale" | "topEat"
+>;
 
 export const RestaurantListItem = ({
   id,

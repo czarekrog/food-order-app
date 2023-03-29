@@ -3,6 +3,7 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 import Restaurant from "../types/Restaurant";
 import DeliveryOption from "../types/DeliveryOption";
 import { RootState } from "../app/store";
+import PriceRange from "../types/PriceRange";
 
 export interface RestaurantsState {
   restaurants: Restaurant[];
@@ -14,7 +15,7 @@ const initialState: RestaurantsState = {
       id: "sauhgas89fh89asd98uas98du9sa8ud98asu",
       name: "M.C. Chicken",
       ratings: [4, 5, 5, 3, 5, 5],
-      deliveryOptions: [DeliveryOption.delivery, DeliveryOption.pickup],
+      deliveryOptions: [DeliveryOption.pickup],
       mainPhotoUrl:
         "https://cdn.pixabay.com/photo/2016/07/31/17/51/chicken-1559548_960_720.jpg",
       deliveryTimeRange: "25-35mins",
@@ -39,12 +40,16 @@ const initialState: RestaurantsState = {
           discountedPrice: null,
         },
       ],
+      priceRange: PriceRange.low,
+      foodCategories: ["wara8yg83grab3arar"],
+      sale: false,
+      topEat: false,
     },
     {
       id: "dashd87ashgcsahcsah98chasudsas",
       name: "Pizzastico",
       ratings: [4, 5, 5, 3, 4, 4],
-      deliveryOptions: [DeliveryOption.delivery, DeliveryOption.pickup],
+      deliveryOptions: [DeliveryOption.pickup],
       mainPhotoUrl:
         "https://cdn.pixabay.com/photo/2018/04/11/03/13/food-3309418_960_720.jpg",
       deliveryTimeRange: "15-25mins",
@@ -69,12 +74,16 @@ const initialState: RestaurantsState = {
           discountedPrice: null,
         },
       ],
+      priceRange: PriceRange.low,
+      foodCategories: ["sdiashd9ahd9ajd8ass", "sdadaghs8fsah7fhs3q"],
+      sale: false,
+      topEat: false,
     },
     {
       id: "fcsa8fhsa9hf9sjf8s98j9sddfsdf",
       name: "Pasta & Pasta",
       ratings: [4, 5, 5, 5, 5, 5, 4],
-      deliveryOptions: [DeliveryOption.delivery, DeliveryOption.pickup],
+      deliveryOptions: [DeliveryOption.delivery],
       mainPhotoUrl:
         "https://cdn.pixabay.com/photo/2016/11/23/18/31/pasta-1854245_960_720.jpg",
       deliveryTimeRange: "15-25mins",
@@ -82,6 +91,10 @@ const initialState: RestaurantsState = {
       categoryId: "",
       menuCategories: [],
       menuItems: [],
+      priceRange: PriceRange.medium,
+      foodCategories: ["sdadaghs8fsah7fhs3q"],
+      sale: false,
+      topEat: false,
     },
     {
       id: "fsdu8fhs897h9hfs9dhf98sh9jsdsfsd",
@@ -95,6 +108,10 @@ const initialState: RestaurantsState = {
       categoryId: "",
       menuCategories: [],
       menuItems: [],
+      priceRange: PriceRange.high,
+      foodCategories: ["asda78h78shf7sahfa"],
+      sale: false,
+      topEat: true,
     },
   ],
 };
