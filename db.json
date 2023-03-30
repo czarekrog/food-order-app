@@ -1,0 +1,2911 @@
+{
+  "restaurants": [
+    {
+      "id": "3068dd03-c384-4656-81a5-b9604b27f9c6",
+      "name": "La Trattoria",
+      "ratings": [
+        3, 3, 3, 5, 3, 3, 3, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5,
+        4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5,
+        4, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": ["ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e"],
+      "sale": "FALSE",
+      "topEat": "TRUE"
+    },
+    {
+      "id": "fe8e451c-29a5-4a9d-a590-9dd137d1a04f",
+      "name": "Il Ristorante Italiano",
+      "ratings": [
+        5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 3,
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": ["ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e"],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "78c1c5eb-78ef-410b-9644-de38c4404979",
+      "name": "Cucina Italiana",
+      "ratings": [
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0],
+      "mainPhotoUrl": "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": ["81cd768f-2890-4acb-bf7d-1e834945b460"],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "dbac039f-3aab-4fde-ba5b-6bdbf16728d5",
+      "name": "Pasta e Vino",
+      "ratings": [
+        5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+        "81cd768f-2890-4acb-bf7d-1e834945b460"
+      ],
+      "sale": "TRUE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "54a5b2bd-8db7-4761-b534-e1777d001c5d",
+      "name": "La Pizzeria",
+      "ratings": [
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/8471703/pexels-photo-8471703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 0,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": ["ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e"],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "6e3a26f5-1e75-4d66-91e9-2880c5bc69b7",
+      "name": "Osteria Italiana",
+      "ratings": [
+        4, 4, 4, 4, 4, 4, 4, 3, 5, 3, 5, 3, 3, 3, 5, 3, 3, 3, 3, 3, 5, 4, 5, 4,
+        5, 4, 5, 4, 5, 3, 5, 3, 5, 3, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/4279476/pexels-photo-4279476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": ["81cd768f-2890-4acb-bf7d-1e834945b460"],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "3f02964d-8817-4dbc-bcf0-0eb7fb1e117d",
+      "name": "Ristorante da Giovanni",
+      "ratings": [
+        4, 4, 5, 3, 5, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 3, 5, 4, 5, 4, 5, 4, 5, 3,
+        5, 3, 5, 3, 5, 4, 5, 4, 5, 3, 3, 3, 3, 5, 3, 5, 3, 3, 3, 3, 3
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/983587/pexels-photo-983587.jpeg",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": [
+        "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+        "81cd768f-2890-4acb-bf7d-1e834945b460"
+      ],
+      "sale": "TRUE",
+      "topEat": "TRUE"
+    },
+    {
+      "id": "a515deb6-e1a6-4287-9251-384e5edcf32e",
+      "name": "Bella Italia",
+      "ratings": [
+        3, 3, 5, 4, 4, 4, 4, 4, 4, 4, 5, 3, 5, 3, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4,
+        5, 4, 5, 3, 3, 5, 3, 5, 3, 5, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/4508965/pexels-photo-4508965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": ["81cd768f-2890-4acb-bf7d-1e834945b460"],
+      "sale": "FALSE",
+      "topEat": "TRUE"
+    },
+    {
+      "id": "f2476376-dec7-47b2-af97-b7b4fc242bab",
+      "name": "Il Giardino Italiano",
+      "ratings": [
+        3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/1437810/pexels-photo-1437810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 0,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": ["81cd768f-2890-4acb-bf7d-1e834945b460"],
+      "sale": "FALSE",
+      "topEat": "TRUE"
+    },
+    {
+      "id": "1ec285f7-db9a-4c02-8a00-6f7a23231005",
+      "name": "Buon Appetito",
+      "ratings": [
+        5, 3, 5, 5, 5, 4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/12932955/pexels-photo-12932955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 4.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": [
+        "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+        "81cd768f-2890-4acb-bf7d-1e834945b460"
+      ],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "53567317-a395-4f9c-a1e4-1023087065f8",
+      "name": "Primo Italiano",
+      "ratings": [
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 2, 2,
+        2, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://cdn.pixabay.com/photo/2021/02/08/12/40/lasagna-5994612_960_720.jpg",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 4.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+        "81cd768f-2890-4acb-bf7d-1e834945b460"
+      ],
+      "sale": "TRUE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "0b1af906-ca33-418c-bf39-914f3e1456ba",
+      "name": "La Cucina di Mario",
+      "ratings": [
+        5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5,
+        5, 5, 5, 5, 5, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://cdn.pixabay.com/photo/2016/02/05/15/34/pasta-1181189_960_720.jpg",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+        "81cd768f-2890-4acb-bf7d-1e834945b460"
+      ],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "8558e367-0e97-43d8-be4e-e945c4b23030",
+      "name": "Ristorante La Fontana",
+      "ratings": [
+        4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://cdn.pixabay.com/photo/2014/11/11/18/20/pasta-527286_960_720.jpg",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 4.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": ["ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e"],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "a9a80b8f-facc-428e-b0db-d72af5d31d2d",
+      "name": "Trattoria Toscana",
+      "ratings": [
+        4, 4, 4, 4, 4, 4, 4, 3, 5, 3, 5, 3, 3, 3, 5, 3, 3, 3, 3, 3, 5, 4, 5, 4,
+        5, 4, 5, 4, 5, 3, 5, 3, 5, 3, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://cdn.pixabay.com/photo/2020/02/15/20/38/noodles-4851996_960_720.jpg",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 0,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": [
+        "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+        "81cd768f-2890-4acb-bf7d-1e834945b460"
+      ],
+      "sale": "TRUE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "58e42f93-0a67-4395-9ae3-617f18751292",
+      "name": "Piazza Italia",
+      "ratings": [
+        4, 4, 5, 3, 5, 3, 3, 3, 3, 3, 3, 3, 3, 3, 5, 3, 5, 4, 5, 4, 5, 4, 5, 3,
+        5, 3, 5, 3, 5, 4, 5, 4, 5, 3, 3, 3, 3, 5, 3, 5, 3, 3, 3, 3, 3
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://cdn.pixabay.com/photo/2016/08/06/20/15/mozzarella-1575066_960_720.jpg",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": ["ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e"],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "aaaeaa0e-b100-45f1-9c97-23d2b5a1a871",
+      "name": "Il Forno Italiano",
+      "ratings": [
+        3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+        4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://cdn.pixabay.com/photo/2020/04/17/08/23/eat-5053825_960_720.jpg",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 4.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": [
+        "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+        "81cd768f-2890-4acb-bf7d-1e834945b460"
+      ],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "05c0a383-6a88-48fc-ba54-a0db7941904f",
+      "name": "Sapori d'Italia",
+      "ratings": [
+        5, 3, 5, 5, 5, 4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+      ],
+      "deliveryOptions": [0],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 4.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+        "81cd768f-2890-4acb-bf7d-1e834945b460"
+      ],
+      "sale": "FALSE",
+      "topEat": "TRUE"
+    },
+    {
+      "id": "625cb304-ba85-4d37-86ac-c2c14ce97a4f",
+      "name": "Gusto Italiano",
+      "ratings": [
+        3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 2, 2,
+        2, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1616299915952-04c803388e5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": [
+        "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+        "81cd768f-2890-4acb-bf7d-1e834945b460"
+      ],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "ea777fec-2329-4ff1-9c1b-f207d7619da6",
+      "name": "Al Fresco Italiano",
+      "ratings": [
+        5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5,
+        5, 5, 5, 5, 5, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1447279506476-3faec8071eee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 0,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": ["81cd768f-2890-4acb-bf7d-1e834945b460"],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "14db0cdf-0d77-48fe-bcee-a73c84573e56",
+      "name": "Il Buco Italiano",
+      "ratings": [
+        5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1585002400872-ec6f400e56b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1260&q=80",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [
+        {
+          "id": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "name": "Appetizers"
+        },
+        {
+          "id": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "name": "Pasta"
+        },
+        {
+          "id": "1b646426-3a3e-465a-8413-20de46abc206",
+          "name": "Pizza"
+        },
+        {
+          "id": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "name": "Desserts"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": 1,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": 9.99,
+          "categoryId": "1b646426-3a3e-465a-8413-20de46abc206",
+          "photoUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Spaghetti Carbonara",
+          "price": 14.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Caprese Salad",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": 7.99,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1595587870672-c79b47875c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FwcmVzZSUyMHNhbGFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        },
+        {
+          "id": 4,
+          "name": "Chicken Parmesan",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1661499152566-b363ac2ef51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Gnocchi Bolognese",
+          "price": 15.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1593003290701-d5e71453a85a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Margherita Flatbread",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "5f669789-d00f-4628-b85b-5ac86540e04b",
+          "photoUrl": "https://images.unsplash.com/photo-1588988949118-c86ba9c9c225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+        },
+        {
+          "id": 7,
+          "name": "Lobster Ravioli",
+          "price": 22.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1560476652-f5bf553eac22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+        },
+        {
+          "id": 8,
+          "name": "Tiramisu",
+          "price": 7.99,
+          "isPopular": false,
+          "discountedPrice": 6.99,
+          "categoryId": "14a7133c-3740-4635-919d-2b03e55d31c5",
+          "photoUrl": "https://images.unsplash.com/photo-1631206753348-db44968fd440?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+          "id": 9,
+          "name": "Penne Arrabbiata",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664478288635-b9703a502393?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+        },
+        {
+          "id": 10,
+          "name": "Margherita Pasta",
+          "price": 12.99,
+          "isPopular": false,
+          "discountedPrice": 10.99,
+          "categoryId": "450a6930-7bb0-44e0-90f6-34f6fec47857",
+          "photoUrl": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": ["ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e"],
+      "sale": "FALSE",
+      "topEat": "FALSE"
+    },
+    {
+      "id": "b710ee87-2eb5-46d5-b970-1e5ed7dcfcd9",
+      "name": "Burger Joint",
+      "ratings": [
+        3, 4, 5, 5, 5, 5, 4, 4, 5, 4, 5, 3, 4, 5, 5, 5, 5, 4, 4, 4, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 3, 3, 3, 4, 4, 4
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/2336676/pexels-photo-2336676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "15-25mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [
+        { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
+      ],
+      "menuItems": [],
+      "priceRange": 0,
+      "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
+      "sale": "PRAWDA",
+      "topEat": "FAŁSZ"
+    },
+    {
+      "id": "d2851d1f-eef6-404a-bb67-bc433809d411",
+      "name": "Juicy Lucy's",
+      "ratings": [
+        4, 5, 4, 3, 4, 5, 3, 4, 5, 4, 5, 5, 5, 4, 4, 5, 5, 3, 4, 5, 3, 4, 5, 4,
+        5, 4, 4, 5, 4, 4, 5, 5, 4, 4, 5, 3, 4, 5, 4, 3, 4, 5, 3, 4, 5, 5, 4, 4,
+        5, 5, 5, 5, 4, 4, 4, 4, 5, 3, 4, 5, 3, 3, 4, 5, 3
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/1600743/pexels-photo-1600743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-40mins",
+      "deliveryPrice": 0,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 1,
+      "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
+      "sale": "FAŁSZ",
+      "topEat": "PRAWDA"
+    },
+    {
+      "id": "31b0e452-09d9-4897-ad68-02532876119a",
+      "name": "Burger Bistro",
+      "ratings": [
+        3, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 4, 2, 3, 2, 3,
+        4, 2, 4, 5, 5, 5, 5, 5, 5, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 3, 3, 4, 3,
+        4, 5, 4, 4, 4, 5, 5, 5, 5, 4, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5,
+        5
+      ],
+      "deliveryOptions": [0],
+      "mainPhotoUrl": "https://images.pexels.com/photos/5864305/pexels-photo-5864305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "30-45mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 2,
+      "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
+      "sale": "PRAWDA",
+      "topEat": "FAŁSZ"
+    },
+    {
+      "id": "d801305d-4584-42f2-a6f2-b4d49ea23adb",
+      "name": "Patty's Place",
+      "ratings": [
+        4, 4, 4, 4, 5, 3, 4, 4, 4, 5, 4, 4, 4, 5, 5, 5, 4, 4, 5, 5, 4, 4, 5, 5,
+        3, 4, 4, 5, 5, 5, 5, 5, 4, 5, 5, 5, 4, 5, 5, 5, 4, 5, 5, 5, 4, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/5864300/pexels-photo-5864300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "15-25mins",
+      "deliveryPrice": 0,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 0,
+      "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
+      "sale": "FAŁSZ",
+      "topEat": "PRAWDA"
+    },
+    {
+      "id": "2d8394d8-ea31-43e7-8b61-55261eda8562",
+      "name": "The Burger Bar",
+      "ratings": [4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/15082383/pexels-photo-15082383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-40mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 1,
+      "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
+      "sale": "FAŁSZ",
+      "topEat": "FAŁSZ"
+    },
+    {
+      "id": "dba05b81-34d6-468d-8329-2d8411eaf2ac",
+      "name": "Burger Bliss",
+      "ratings": [
+        3, 4, 3, 4, 4, 4, 2, 3, 2, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 4, 4, 5, 3, 4, 4, 4, 4, 4
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/59943/pexels-photo-59943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-40mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 1,
+      "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
+      "sale": "FAŁSZ",
+      "topEat": "FAŁSZ"
+    },
+    {
+      "id": "5820f8aa-5b8e-40e2-b151-22b521364a57",
+      "name": "Grilled Goodness",
+      "ratings": [
+        4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 4,
+        4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/1025804/pexels-photo-1025804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-40mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 2,
+      "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
+      "sale": "FAŁSZ",
+      "topEat": "FAŁSZ"
+    },
+    {
+      "id": "cf97c29f-e662-46d2-a468-6df151527041",
+      "name": "Beefy's Burgers",
+      "ratings": [
+        3, 3, 3, 4, 4, 4, 5, 5, 5, 4, 4, 5, 5, 5, 5, 4, 4, 3, 4, 4, 4, 5, 4, 3,
+        4, 5, 5, 5, 5, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 5,
+        5, 5, 5, 5, 5, 5, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 5, 4, 5, 4, 5, 4, 5, 5,
+        5, 5, 5, 4, 4, 5, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 3,
+        3, 3, 4
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/3738755/pexels-photo-3738755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "30-45mins",
+      "deliveryPrice": 0,
+      "menuCategories": [
+        { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
+      ],
+      "menuItems": [],
+      "priceRange": 2,
+      "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
+      "sale": "FAŁSZ",
+      "topEat": "FAŁSZ"
+    },
+    {
+      "id": "1cf478dd-29ac-4880-b74e-11df8bc13b37",
+      "name": "Sushi Bar Zen",
+      "ratings": [
+        4, 5, 4, 3, 4, 5, 3, 4, 5, 4, 5, 5, 5, 4, 4, 5, 5, 3, 4, 5, 3, 4, 5, 4,
+        5, 4, 4, 5, 4, 4, 5, 5, 4, 4, 5, 3, 4, 5, 4, 3, 4, 5, 3, 4, 5, 5, 4, 4,
+        5, 5, 5, 5, 4, 4, 4, 4, 5, 3, 4, 5, 3, 3, 4, 5, 3
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/2264036/pexels-photo-2264036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "15-25mins",
+      "deliveryPrice": 0,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 1,
+      "foodCategories": [
+        "e0fa4d43-e453-444e-826c-8f7260e4acde",
+        "758867b2-3625-4216-bfcf-55aaa7b090db"
+      ],
+      "sale": "PRAWDA",
+      "topEat": "PRAWDA"
+    },
+    {
+      "id": "c89d0c43-135f-47f7-9fb2-c5b3fc398232",
+      "name": "Bluefin Sushi",
+      "ratings": [4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/3687447/pexels-photo-3687447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-40mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 2,
+      "foodCategories": ["e0fa4d43-e453-444e-826c-8f7260e4acde"],
+      "sale": "FAŁSZ",
+      "topEat": "PRAWDA"
+    },
+    {
+      "id": "2d70231e-26c3-409f-98f3-ec1bae698764",
+      "name": "Wasabi Sushi House",
+      "ratings": [
+        3, 4, 3, 4, 4, 4, 2, 3, 2, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 4, 4, 5, 3, 4, 4, 4, 4, 4
+      ],
+      "deliveryOptions": [0],
+      "mainPhotoUrl": "https://images.pexels.com/photos/2682672/pexels-photo-2682672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "30-45mins",
+      "deliveryPrice": 0,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 1,
+      "foodCategories": [
+        "e0fa4d43-e453-444e-826c-8f7260e4acde",
+        "758867b2-3625-4216-bfcf-55aaa7b090db"
+      ],
+      "sale": "PRAWDA",
+      "topEat": "PRAWDA"
+    },
+    {
+      "id": "3c8082bf-43e4-4874-b473-6a5542676a1b",
+      "name": "Ocean's Edge Sushi",
+      "ratings": [
+        4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 4,
+        4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "15-25mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 2,
+      "foodCategories": [
+        "e0fa4d43-e453-444e-826c-8f7260e4acde",
+        "758867b2-3625-4216-bfcf-55aaa7b090db",
+        "2e5390fa-e76c-4e17-a6df-52b3a9770eb3"
+      ],
+      "sale": "FAŁSZ",
+      "topEat": "PRAWDA"
+    },
+    {
+      "id": "d264b1bc-69f5-46ef-b148-662eb7eab30e",
+      "name": "Samurai Sushi Kitchen",
+      "ratings": [
+        3, 4, 5, 5, 5, 5, 4, 4, 5, 4, 5, 3, 4, 5, 5, 5, 5, 4, 4, 4, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 3, 3, 3, 4, 4, 4
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-40mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 2,
+      "foodCategories": [
+        "e0fa4d43-e453-444e-826c-8f7260e4acde",
+        "758867b2-3625-4216-bfcf-55aaa7b090db"
+      ],
+      "sale": "FAŁSZ",
+      "topEat": "FAŁSZ"
+    },
+    {
+      "id": "4af923cf-654a-4d52-b2b7-d9ef4f263de7",
+      "name": "Dragon Roll Sushi",
+      "ratings": [
+        4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 4,
+        4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/3642030/pexels-photo-3642030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-40mins",
+      "deliveryPrice": 3.99,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 1,
+      "foodCategories": [
+        "e0fa4d43-e453-444e-826c-8f7260e4acde",
+        "2e5390fa-e76c-4e17-a6df-52b3a9770eb3"
+      ],
+      "sale": "FAŁSZ",
+      "topEat": "FAŁSZ"
+    },
+    {
+      "id": "6c7f3eac-51ad-45af-8259-ceb95adffdfe",
+      "name": "Tsunami Sushi Bar",
+      "ratings": [
+        3, 3, 3, 4, 4, 4, 5, 5, 5, 4, 4, 5, 5, 5, 5, 4, 4, 3, 4, 4, 4, 5, 4, 3,
+        4, 5, 5, 5, 5, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 5,
+        5, 5, 5, 5, 5, 5, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 5, 4, 5, 4, 5, 4, 5, 5,
+        5, 5, 5, 4, 4, 5, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 3,
+        3, 3, 4
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/8951297/pexels-photo-8951297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "deliveryTimeRange": "25-40mins",
+      "deliveryPrice": 0,
+      "menuCategories": [],
+      "menuItems": [],
+      "priceRange": 2,
+      "foodCategories": [
+        "e0fa4d43-e453-444e-826c-8f7260e4acde",
+        "758867b2-3625-4216-bfcf-55aaa7b090db"
+      ],
+      "sale": "FAŁSZ",
+      "topEat": "FAŁSZ"
+    }
+  ],
+  "categories": [
+    {
+      "id": "e0fa4d43-e453-444e-826c-8f7260e4acde",
+      "name": "Sushi",
+      "iconUrl": "https://cdn.pixabay.com/photo/2021/02/06/21/12/sushi-5989416_960_720.png"
+    },
+    {
+      "id": "563120e3-d63b-45db-92eb-1ea468581d41",
+      "name": "Burgers",
+      "iconUrl": "https://cdn.pixabay.com/photo/2017/06/18/22/41/hamburger-2417493_960_720.png"
+    },
+    {
+      "id": "ebddbda9-1c20-4dcc-b7ce-9f894e12fc6e",
+      "name": "Pizza",
+      "iconUrl": "https://cdn.pixabay.com/photo/2022/10/06/22/22/pizza-7503664_960_720.png"
+    },
+    {
+      "id": "eae5ffef-bb27-4bf9-9193-dd4ae6be3221",
+      "name": "Burrito",
+      "iconUrl": "https://cdn.pixabay.com/photo/2017/10/24/10/10/taco-2883992_960_720.png"
+    },
+    {
+      "id": "81cd768f-2890-4acb-bf7d-1e834945b460",
+      "name": "Pasta",
+      "iconUrl": "https://cdn.pixabay.com/photo/2018/12/28/13/25/noodle-3899589_960_720.png"
+    },
+    {
+      "id": "758867b2-3625-4216-bfcf-55aaa7b090db",
+      "name": "Fish",
+      "iconUrl": "https://cdn.pixabay.com/photo/2015/10/24/17/43/fish-1004745_960_720.png"
+    },
+    {
+      "id": "d8699c52-5743-4fee-8291-012af701c5fb",
+      "name": "Coffee",
+      "iconUrl": "https://cdn.pixabay.com/photo/2018/08/30/16/57/coffee-3642712_960_720.png"
+    },
+    {
+      "id": "49f92f3c-2fe9-4342-92c6-bc2c9e76409c",
+      "name": "Ice Cream",
+      "iconUrl": "https://cdn-icons-png.flaticon.com/512/1804/1804098.png"
+    },
+    {
+      "id": "1299c9d4-c05b-427c-aa91-fd26ba696d89",
+      "name": "Donut",
+      "iconUrl": "https://cdn.pixabay.com/photo/2022/08/25/12/04/donut-7410114_960_720.jpg"
+    },
+    {
+      "id": "2e5390fa-e76c-4e17-a6df-52b3a9770eb3",
+      "name": "Vegan",
+      "iconUrl": "https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/vegan-icon.png"
+    },
+    {
+      "id": "a65730a0-a5c6-4564-a198-d91d630cde7c",
+      "name": "Breakfasts",
+      "iconUrl": "https://cdn-icons-png.flaticon.com/512/2913/2913181.png"
+    },
+    {
+      "id": "a900735e-1d6a-4695-a137-bd6df47e9247",
+      "name": "Dumplings",
+      "iconUrl": "https://cdn-icons-png.flaticon.com/512/6166/6166230.png"
+    }
+  ]
+}
