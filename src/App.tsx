@@ -7,11 +7,17 @@ import { AuthLayout } from "./layout/AuthLayout";
 import { SignInForm } from "./components/Auth/SignInForm";
 import { SignUpForm } from "./components/Auth/SignUpForm";
 import { ForgotPasswordForm } from "./components/Auth/ForgotPasswordForm";
+import ScrollToTop from "./components/ScrollToTop";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <MainLayout />,
+    element: (
+      <>
+        <ScrollToTop />
+        <MainLayout />
+      </>
+    ),
     children: [
       { path: "/", element: <HomeLayout />, children: [] },
       {
