@@ -2562,11 +2562,57 @@
       "menuCategories": [
         { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
       ],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "id": "e9af86a7-f932-4426-8e6e-225d53c7c88a",
+          "name": "Classic Burger",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": 8.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "852c3e3d-7d19-4b4f-b4f4-f19f7d4d6964",
+          "name": "Bacon Cheeseburger",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a40d238a-6f25-43eb-87c5-ee6d36ba0c34",
+          "name": "Mushroom Swiss Burger",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c1fc035-22f3-4fc9-a9b2-2fc61f81fc4d",
+          "name": "Double Cheeseburger",
+          "price": 13.99,
+          "isPopular": false,
+          "discountedPrice": 12.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c6f1d6e7-6c12-4318-bba6-685a6f3106d2",
+          "name": "Veggie Burger",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/6546024/pexels-photo-6546024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
       "priceRange": 0,
       "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
-      "sale": "PRAWDA",
-      "topEat": "FAŁSZ"
+      "sale": "true",
+      "topEat": "false"
     },
     {
       "id": "d2851d1f-eef6-404a-bb67-bc433809d411",
@@ -2580,12 +2626,60 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/1600743/pexels-photo-1600743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "25-40mins",
       "deliveryPrice": 0,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
+      ],
+      "menuItems": [
+        {
+          "id": "e9af86a7-f932-4426-8e6e-225d53c7c88a",
+          "name": "Classic Burger",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": 8.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "852c3e3d-7d19-4b4f-b4f4-f19f7d4d6964",
+          "name": "Bacon Cheeseburger",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a40d238a-6f25-43eb-87c5-ee6d36ba0c34",
+          "name": "Mushroom Swiss Burger",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c1fc035-22f3-4fc9-a9b2-2fc61f81fc4d",
+          "name": "Double Cheeseburger",
+          "price": 13.99,
+          "isPopular": false,
+          "discountedPrice": 12.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c6f1d6e7-6c12-4318-bba6-685a6f3106d2",
+          "name": "Veggie Burger",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/6546024/pexels-photo-6546024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
       "priceRange": 1,
       "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
-      "sale": "FAŁSZ",
-      "topEat": "PRAWDA"
+      "sale": "false",
+      "topEat": "true"
     },
     {
       "id": "31b0e452-09d9-4897-ad68-02532876119a",
@@ -2600,12 +2694,60 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/5864305/pexels-photo-5864305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "30-45mins",
       "deliveryPrice": 3.99,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
+      ],
+      "menuItems": [
+        {
+          "id": "e9af86a7-f932-4426-8e6e-225d53c7c88a",
+          "name": "Classic Burger",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": 8.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "852c3e3d-7d19-4b4f-b4f4-f19f7d4d6964",
+          "name": "Bacon Cheeseburger",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a40d238a-6f25-43eb-87c5-ee6d36ba0c34",
+          "name": "Mushroom Swiss Burger",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c1fc035-22f3-4fc9-a9b2-2fc61f81fc4d",
+          "name": "Double Cheeseburger",
+          "price": 13.99,
+          "isPopular": false,
+          "discountedPrice": 12.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c6f1d6e7-6c12-4318-bba6-685a6f3106d2",
+          "name": "Veggie Burger",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/6546024/pexels-photo-6546024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
       "priceRange": 2,
       "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
-      "sale": "PRAWDA",
-      "topEat": "FAŁSZ"
+      "sale": "true",
+      "topEat": "false"
     },
     {
       "id": "d801305d-4584-42f2-a6f2-b4d49ea23adb",
@@ -2618,12 +2760,60 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/5864300/pexels-photo-5864300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "15-25mins",
       "deliveryPrice": 0,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
+      ],
+      "menuItems": [
+        {
+          "id": "e9af86a7-f932-4426-8e6e-225d53c7c88a",
+          "name": "Classic Burger",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": 8.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "852c3e3d-7d19-4b4f-b4f4-f19f7d4d6964",
+          "name": "Bacon Cheeseburger",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a40d238a-6f25-43eb-87c5-ee6d36ba0c34",
+          "name": "Mushroom Swiss Burger",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c1fc035-22f3-4fc9-a9b2-2fc61f81fc4d",
+          "name": "Double Cheeseburger",
+          "price": 13.99,
+          "isPopular": false,
+          "discountedPrice": 12.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c6f1d6e7-6c12-4318-bba6-685a6f3106d2",
+          "name": "Veggie Burger",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/6546024/pexels-photo-6546024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
       "priceRange": 0,
       "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
-      "sale": "FAŁSZ",
-      "topEat": "PRAWDA"
+      "sale": "false",
+      "topEat": "true"
     },
     {
       "id": "2d8394d8-ea31-43e7-8b61-55261eda8562",
@@ -2633,12 +2823,60 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/15082383/pexels-photo-15082383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "25-40mins",
       "deliveryPrice": 2.99,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
+      ],
+      "menuItems": [
+        {
+          "id": "e9af86a7-f932-4426-8e6e-225d53c7c88a",
+          "name": "Classic Burger",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": 8.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "852c3e3d-7d19-4b4f-b4f4-f19f7d4d6964",
+          "name": "Bacon Cheeseburger",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a40d238a-6f25-43eb-87c5-ee6d36ba0c34",
+          "name": "Mushroom Swiss Burger",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c1fc035-22f3-4fc9-a9b2-2fc61f81fc4d",
+          "name": "Double Cheeseburger",
+          "price": 13.99,
+          "isPopular": false,
+          "discountedPrice": 12.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c6f1d6e7-6c12-4318-bba6-685a6f3106d2",
+          "name": "Veggie Burger",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/6546024/pexels-photo-6546024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
       "priceRange": 1,
       "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
-      "sale": "FAŁSZ",
-      "topEat": "FAŁSZ"
+      "sale": "false",
+      "topEat": "false"
     },
     {
       "id": "dba05b81-34d6-468d-8329-2d8411eaf2ac",
@@ -2651,12 +2889,60 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/59943/pexels-photo-59943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "25-40mins",
       "deliveryPrice": 2.99,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
+      ],
+      "menuItems": [
+        {
+          "id": "e9af86a7-f932-4426-8e6e-225d53c7c88a",
+          "name": "Classic Burger",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": 8.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "852c3e3d-7d19-4b4f-b4f4-f19f7d4d6964",
+          "name": "Bacon Cheeseburger",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a40d238a-6f25-43eb-87c5-ee6d36ba0c34",
+          "name": "Mushroom Swiss Burger",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c1fc035-22f3-4fc9-a9b2-2fc61f81fc4d",
+          "name": "Double Cheeseburger",
+          "price": 13.99,
+          "isPopular": false,
+          "discountedPrice": 12.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c6f1d6e7-6c12-4318-bba6-685a6f3106d2",
+          "name": "Veggie Burger",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/6546024/pexels-photo-6546024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
       "priceRange": 1,
       "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
-      "sale": "FAŁSZ",
-      "topEat": "FAŁSZ"
+      "sale": "false",
+      "topEat": "false"
     },
     {
       "id": "5820f8aa-5b8e-40e2-b151-22b521364a57",
@@ -2669,12 +2955,60 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/1025804/pexels-photo-1025804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "25-40mins",
       "deliveryPrice": 3.99,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
+      ],
+      "menuItems": [
+        {
+          "id": "e9af86a7-f932-4426-8e6e-225d53c7c88a",
+          "name": "Classic Burger",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": 8.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "852c3e3d-7d19-4b4f-b4f4-f19f7d4d6964",
+          "name": "Bacon Cheeseburger",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a40d238a-6f25-43eb-87c5-ee6d36ba0c34",
+          "name": "Mushroom Swiss Burger",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c1fc035-22f3-4fc9-a9b2-2fc61f81fc4d",
+          "name": "Double Cheeseburger",
+          "price": 13.99,
+          "isPopular": false,
+          "discountedPrice": 12.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c6f1d6e7-6c12-4318-bba6-685a6f3106d2",
+          "name": "Veggie Burger",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/6546024/pexels-photo-6546024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
       "priceRange": 2,
       "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
-      "sale": "FAŁSZ",
-      "topEat": "FAŁSZ"
+      "sale": "false",
+      "topEat": "false"
     },
     {
       "id": "cf97c29f-e662-46d2-a468-6df151527041",
@@ -2693,11 +3027,57 @@
       "menuCategories": [
         { "id": "44444832-22f0-4bf4-aaa1-b1495c2d7baa", "name": "Burgers" }
       ],
-      "menuItems": [],
+      "menuItems": [
+        {
+          "id": "e9af86a7-f932-4426-8e6e-225d53c7c88a",
+          "name": "Classic Burger",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": 8.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "852c3e3d-7d19-4b4f-b4f4-f19f7d4d6964",
+          "name": "Bacon Cheeseburger",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a40d238a-6f25-43eb-87c5-ee6d36ba0c34",
+          "name": "Mushroom Swiss Burger",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c1fc035-22f3-4fc9-a9b2-2fc61f81fc4d",
+          "name": "Double Cheeseburger",
+          "price": 13.99,
+          "isPopular": false,
+          "discountedPrice": 12.99,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c6f1d6e7-6c12-4318-bba6-685a6f3106d2",
+          "name": "Veggie Burger",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "44444832-22f0-4bf4-aaa1-b1495c2d7baa",
+          "photoUrl": "https://images.pexels.com/photos/6546024/pexels-photo-6546024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
       "priceRange": 2,
       "foodCategories": ["563120e3-d63b-45db-92eb-1ea468581d41"],
-      "sale": "FAŁSZ",
-      "topEat": "FAŁSZ"
+      "sale": "false",
+      "topEat": "false"
     },
     {
       "id": "1cf478dd-29ac-4880-b74e-11df8bc13b37",
@@ -2711,15 +3091,93 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/2264036/pexels-photo-2264036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "15-25mins",
       "deliveryPrice": 0,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "d8a3b258-add6-4279-9329-9c4df6ba1d53", "name": "Rolls" },
+        { "id": "067d449d-aba7-4d13-a5ef-67c7d6991348", "name": "Platters" },
+        { "id": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054", "name": "Nigiri" }
+      ],
+      "menuItems": [
+        {
+          "id": "d9a7450f-5db7-4be5-a75c-1b88dd61d041",
+          "name": "California Roll",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/8951172/pexels-photo-8951172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a5a5c5e5-c5c5-4e5c-9e9d-5d5b5c5a5a5a",
+          "name": "Spicy Tuna Roll",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1199979/pexels-photo-1199979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c2a906e2-f6e8-49b8-9ca7-31b02a342f8d",
+          "name": "Salmon Nigiri",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054",
+          "photoUrl": "https://images.pexels.com/photos/4725638/pexels-photo-4725638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "91f57ea9-02f5-4a4e-89ad-871e4c4f0d3a",
+          "name": "Sashimi Platter",
+          "price": 29.99,
+          "isPopular": true,
+          "discountedPrice": 27.99,
+          "categoryId": "067d449d-aba7-4d13-a5ef-67c7d6991348",
+          "photoUrl": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c7f60b4-9e12-4d98-a1ca-7e5c32b77328",
+          "name": "Dragon Roll",
+          "price": 15.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1422384/pexels-photo-1422384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "f71da44f-7e29-468a-bf6b-0f0c8d42eac6",
+          "name": "Rainbow Roll",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1636425730695-febe95eda12e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "id": "b04d9f68-7718-43b2-a3a3-d1a95d8c8a72",
+          "name": "Tuna Roll",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "2e4852a8-032e-46b6-9b88-9a1b56c1a05a",
+          "name": "Vegetarian Sushi",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": 10.99,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664472644125-f12aecccdd52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        }
+      ],
       "priceRange": 1,
       "foodCategories": [
         "e0fa4d43-e453-444e-826c-8f7260e4acde",
-        "758867b2-3625-4216-bfcf-55aaa7b090db"
+        "758867b2-3625-4216-bfcf-55aaa7b090db",
+        "2e5390fa-e76c-4e17-a6df-52b3a9770eb3"
       ],
-      "sale": "PRAWDA",
-      "topEat": "PRAWDA"
+      "sale": "true",
+      "topEat": "true"
     },
     {
       "id": "c89d0c43-135f-47f7-9fb2-c5b3fc398232",
@@ -2729,12 +3187,89 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/3687447/pexels-photo-3687447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "25-40mins",
       "deliveryPrice": 3.99,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "d8a3b258-add6-4279-9329-9c4df6ba1d53", "name": "Rolls" },
+        { "id": "067d449d-aba7-4d13-a5ef-67c7d6991348", "name": "Platters" },
+        { "id": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054", "name": "Nigiri" }
+      ],
+      "menuItems": [
+        {
+          "id": "d9a7450f-5db7-4be5-a75c-1b88dd61d041",
+          "name": "California Roll",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/8951172/pexels-photo-8951172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a5a5c5e5-c5c5-4e5c-9e9d-5d5b5c5a5a5a",
+          "name": "Spicy Tuna Roll",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1199979/pexels-photo-1199979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c2a906e2-f6e8-49b8-9ca7-31b02a342f8d",
+          "name": "Salmon Nigiri",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054",
+          "photoUrl": "https://images.pexels.com/photos/4725638/pexels-photo-4725638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "91f57ea9-02f5-4a4e-89ad-871e4c4f0d3a",
+          "name": "Sashimi Platter",
+          "price": 29.99,
+          "isPopular": true,
+          "discountedPrice": 27.99,
+          "categoryId": "067d449d-aba7-4d13-a5ef-67c7d6991348",
+          "photoUrl": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c7f60b4-9e12-4d98-a1ca-7e5c32b77328",
+          "name": "Dragon Roll",
+          "price": 15.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1422384/pexels-photo-1422384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "f71da44f-7e29-468a-bf6b-0f0c8d42eac6",
+          "name": "Rainbow Roll",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1636425730695-febe95eda12e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "id": "b04d9f68-7718-43b2-a3a3-d1a95d8c8a72",
+          "name": "Tuna Roll",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "2e4852a8-032e-46b6-9b88-9a1b56c1a05a",
+          "name": "Vegetarian Sushi",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": 10.99,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664472644125-f12aecccdd52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        }
+      ],
       "priceRange": 2,
       "foodCategories": ["e0fa4d43-e453-444e-826c-8f7260e4acde"],
-      "sale": "FAŁSZ",
-      "topEat": "PRAWDA"
+      "sale": "false",
+      "topEat": "true"
     },
     {
       "id": "2d70231e-26c3-409f-98f3-ec1bae698764",
@@ -2747,15 +3282,92 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/2682672/pexels-photo-2682672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "30-45mins",
       "deliveryPrice": 0,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "d8a3b258-add6-4279-9329-9c4df6ba1d53", "name": "Rolls" },
+        { "id": "067d449d-aba7-4d13-a5ef-67c7d6991348", "name": "Platters" },
+        { "id": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054", "name": "Nigiri" }
+      ],
+      "menuItems": [
+        {
+          "id": "d9a7450f-5db7-4be5-a75c-1b88dd61d041",
+          "name": "California Roll",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/8951172/pexels-photo-8951172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a5a5c5e5-c5c5-4e5c-9e9d-5d5b5c5a5a5a",
+          "name": "Spicy Tuna Roll",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1199979/pexels-photo-1199979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c2a906e2-f6e8-49b8-9ca7-31b02a342f8d",
+          "name": "Salmon Nigiri",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054",
+          "photoUrl": "https://images.pexels.com/photos/4725638/pexels-photo-4725638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "91f57ea9-02f5-4a4e-89ad-871e4c4f0d3a",
+          "name": "Sashimi Platter",
+          "price": 29.99,
+          "isPopular": true,
+          "discountedPrice": 27.99,
+          "categoryId": "067d449d-aba7-4d13-a5ef-67c7d6991348",
+          "photoUrl": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c7f60b4-9e12-4d98-a1ca-7e5c32b77328",
+          "name": "Dragon Roll",
+          "price": 15.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1422384/pexels-photo-1422384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "f71da44f-7e29-468a-bf6b-0f0c8d42eac6",
+          "name": "Rainbow Roll",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1636425730695-febe95eda12e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "id": "b04d9f68-7718-43b2-a3a3-d1a95d8c8a72",
+          "name": "Tuna Roll",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "2e4852a8-032e-46b6-9b88-9a1b56c1a05a",
+          "name": "Vegetarian Sushi",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": 10.99,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664472644125-f12aecccdd52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        }
+      ],
       "priceRange": 1,
       "foodCategories": [
         "e0fa4d43-e453-444e-826c-8f7260e4acde",
         "758867b2-3625-4216-bfcf-55aaa7b090db"
       ],
-      "sale": "PRAWDA",
-      "topEat": "PRAWDA"
+      "sale": "true",
+      "topEat": "true"
     },
     {
       "id": "3c8082bf-43e4-4874-b473-6a5542676a1b",
@@ -2768,16 +3380,93 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/2098085/pexels-photo-2098085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "15-25mins",
       "deliveryPrice": 2.99,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "d8a3b258-add6-4279-9329-9c4df6ba1d53", "name": "Rolls" },
+        { "id": "067d449d-aba7-4d13-a5ef-67c7d6991348", "name": "Platters" },
+        { "id": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054", "name": "Nigiri" }
+      ],
+      "menuItems": [
+        {
+          "id": "d9a7450f-5db7-4be5-a75c-1b88dd61d041",
+          "name": "California Roll",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/8951172/pexels-photo-8951172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a5a5c5e5-c5c5-4e5c-9e9d-5d5b5c5a5a5a",
+          "name": "Spicy Tuna Roll",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1199979/pexels-photo-1199979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c2a906e2-f6e8-49b8-9ca7-31b02a342f8d",
+          "name": "Salmon Nigiri",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054",
+          "photoUrl": "https://images.pexels.com/photos/4725638/pexels-photo-4725638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "91f57ea9-02f5-4a4e-89ad-871e4c4f0d3a",
+          "name": "Sashimi Platter",
+          "price": 29.99,
+          "isPopular": true,
+          "discountedPrice": 27.99,
+          "categoryId": "067d449d-aba7-4d13-a5ef-67c7d6991348",
+          "photoUrl": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c7f60b4-9e12-4d98-a1ca-7e5c32b77328",
+          "name": "Dragon Roll",
+          "price": 15.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1422384/pexels-photo-1422384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "f71da44f-7e29-468a-bf6b-0f0c8d42eac6",
+          "name": "Rainbow Roll",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1636425730695-febe95eda12e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "id": "b04d9f68-7718-43b2-a3a3-d1a95d8c8a72",
+          "name": "Tuna Roll",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "2e4852a8-032e-46b6-9b88-9a1b56c1a05a",
+          "name": "Vegetarian Sushi",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": 10.99,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664472644125-f12aecccdd52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        }
+      ],
       "priceRange": 2,
       "foodCategories": [
         "e0fa4d43-e453-444e-826c-8f7260e4acde",
         "758867b2-3625-4216-bfcf-55aaa7b090db",
         "2e5390fa-e76c-4e17-a6df-52b3a9770eb3"
       ],
-      "sale": "FAŁSZ",
-      "topEat": "PRAWDA"
+      "sale": "false",
+      "topEat": "true"
     },
     {
       "id": "d264b1bc-69f5-46ef-b148-662eb7eab30e",
@@ -2790,15 +3479,92 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "25-40mins",
       "deliveryPrice": 2.99,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "d8a3b258-add6-4279-9329-9c4df6ba1d53", "name": "Rolls" },
+        { "id": "067d449d-aba7-4d13-a5ef-67c7d6991348", "name": "Platters" },
+        { "id": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054", "name": "Nigiri" }
+      ],
+      "menuItems": [
+        {
+          "id": "d9a7450f-5db7-4be5-a75c-1b88dd61d041",
+          "name": "California Roll",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/8951172/pexels-photo-8951172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a5a5c5e5-c5c5-4e5c-9e9d-5d5b5c5a5a5a",
+          "name": "Spicy Tuna Roll",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1199979/pexels-photo-1199979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c2a906e2-f6e8-49b8-9ca7-31b02a342f8d",
+          "name": "Salmon Nigiri",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054",
+          "photoUrl": "https://images.pexels.com/photos/4725638/pexels-photo-4725638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "91f57ea9-02f5-4a4e-89ad-871e4c4f0d3a",
+          "name": "Sashimi Platter",
+          "price": 29.99,
+          "isPopular": true,
+          "discountedPrice": 27.99,
+          "categoryId": "067d449d-aba7-4d13-a5ef-67c7d6991348",
+          "photoUrl": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c7f60b4-9e12-4d98-a1ca-7e5c32b77328",
+          "name": "Dragon Roll",
+          "price": 15.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1422384/pexels-photo-1422384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "f71da44f-7e29-468a-bf6b-0f0c8d42eac6",
+          "name": "Rainbow Roll",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1636425730695-febe95eda12e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "id": "b04d9f68-7718-43b2-a3a3-d1a95d8c8a72",
+          "name": "Tuna Roll",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "2e4852a8-032e-46b6-9b88-9a1b56c1a05a",
+          "name": "Vegetarian Sushi",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": 10.99,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664472644125-f12aecccdd52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        }
+      ],
       "priceRange": 2,
       "foodCategories": [
         "e0fa4d43-e453-444e-826c-8f7260e4acde",
         "758867b2-3625-4216-bfcf-55aaa7b090db"
       ],
-      "sale": "FAŁSZ",
-      "topEat": "FAŁSZ"
+      "sale": "false",
+      "topEat": "false"
     },
     {
       "id": "4af923cf-654a-4d52-b2b7-d9ef4f263de7",
@@ -2811,15 +3577,92 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/3642030/pexels-photo-3642030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "25-40mins",
       "deliveryPrice": 3.99,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "d8a3b258-add6-4279-9329-9c4df6ba1d53", "name": "Rolls" },
+        { "id": "067d449d-aba7-4d13-a5ef-67c7d6991348", "name": "Platters" },
+        { "id": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054", "name": "Nigiri" }
+      ],
+      "menuItems": [
+        {
+          "id": "d9a7450f-5db7-4be5-a75c-1b88dd61d041",
+          "name": "California Roll",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/8951172/pexels-photo-8951172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a5a5c5e5-c5c5-4e5c-9e9d-5d5b5c5a5a5a",
+          "name": "Spicy Tuna Roll",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1199979/pexels-photo-1199979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c2a906e2-f6e8-49b8-9ca7-31b02a342f8d",
+          "name": "Salmon Nigiri",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054",
+          "photoUrl": "https://images.pexels.com/photos/4725638/pexels-photo-4725638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "91f57ea9-02f5-4a4e-89ad-871e4c4f0d3a",
+          "name": "Sashimi Platter",
+          "price": 29.99,
+          "isPopular": true,
+          "discountedPrice": 27.99,
+          "categoryId": "067d449d-aba7-4d13-a5ef-67c7d6991348",
+          "photoUrl": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c7f60b4-9e12-4d98-a1ca-7e5c32b77328",
+          "name": "Dragon Roll",
+          "price": 15.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1422384/pexels-photo-1422384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "f71da44f-7e29-468a-bf6b-0f0c8d42eac6",
+          "name": "Rainbow Roll",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1636425730695-febe95eda12e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "id": "b04d9f68-7718-43b2-a3a3-d1a95d8c8a72",
+          "name": "Tuna Roll",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "2e4852a8-032e-46b6-9b88-9a1b56c1a05a",
+          "name": "Vegetarian Sushi",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": 10.99,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664472644125-f12aecccdd52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        }
+      ],
       "priceRange": 1,
       "foodCategories": [
         "e0fa4d43-e453-444e-826c-8f7260e4acde",
         "2e5390fa-e76c-4e17-a6df-52b3a9770eb3"
       ],
-      "sale": "FAŁSZ",
-      "topEat": "FAŁSZ"
+      "sale": "false",
+      "topEat": "false"
     },
     {
       "id": "6c7f3eac-51ad-45af-8259-ceb95adffdfe",
@@ -2835,15 +3678,1684 @@
       "mainPhotoUrl": "https://images.pexels.com/photos/8951297/pexels-photo-8951297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "deliveryTimeRange": "25-40mins",
       "deliveryPrice": 0,
-      "menuCategories": [],
-      "menuItems": [],
+      "menuCategories": [
+        { "id": "d8a3b258-add6-4279-9329-9c4df6ba1d53", "name": "Rolls" },
+        { "id": "067d449d-aba7-4d13-a5ef-67c7d6991348", "name": "Platters" },
+        { "id": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054", "name": "Nigiri" }
+      ],
+      "menuItems": [
+        {
+          "id": "d9a7450f-5db7-4be5-a75c-1b88dd61d041",
+          "name": "California Roll",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/8951172/pexels-photo-8951172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "a5a5c5e5-c5c5-4e5c-9e9d-5d5b5c5a5a5a",
+          "name": "Spicy Tuna Roll",
+          "price": 10.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1199979/pexels-photo-1199979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "c2a906e2-f6e8-49b8-9ca7-31b02a342f8d",
+          "name": "Salmon Nigiri",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "2287cc6a-d180-4a9b-9c1e-a15a5d42f054",
+          "photoUrl": "https://images.pexels.com/photos/4725638/pexels-photo-4725638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "91f57ea9-02f5-4a4e-89ad-871e4c4f0d3a",
+          "name": "Sashimi Platter",
+          "price": 29.99,
+          "isPopular": true,
+          "discountedPrice": 27.99,
+          "categoryId": "067d449d-aba7-4d13-a5ef-67c7d6991348",
+          "photoUrl": "https://images.pexels.com/photos/2871757/pexels-photo-2871757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "0c7f60b4-9e12-4d98-a1ca-7e5c32b77328",
+          "name": "Dragon Roll",
+          "price": 15.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.pexels.com/photos/1422384/pexels-photo-1422384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "f71da44f-7e29-468a-bf6b-0f0c8d42eac6",
+          "name": "Rainbow Roll",
+          "price": 16.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1636425730695-febe95eda12e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+          "id": "b04d9f68-7718-43b2-a3a3-d1a95d8c8a72",
+          "name": "Tuna Roll",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://images.unsplash.com/photo-1559410545-0bdcd187e0a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "2e4852a8-032e-46b6-9b88-9a1b56c1a05a",
+          "name": "Vegetarian Sushi",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": 10.99,
+          "categoryId": "d8a3b258-add6-4279-9329-9c4df6ba1d53",
+          "photoUrl": "https://plus.unsplash.com/premium_photo-1664472644125-f12aecccdd52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        }
+      ],
       "priceRange": 2,
       "foodCategories": [
         "e0fa4d43-e453-444e-826c-8f7260e4acde",
         "758867b2-3625-4216-bfcf-55aaa7b090db"
       ],
-      "sale": "FAŁSZ",
-      "topEat": "FAŁSZ"
+      "sale": "false",
+      "topEat": "false"
+    },
+    {
+      "id": "24ad41c5-d752-4694-8441-f6843aac5920",
+      "name": "Bangkok Bistro",
+      "ratings": [
+        4, 5, 3, 4, 4, 5, 5, 5, 4, 5, 4, 5, 3, 5, 4, 5, 4, 5, 3, 5, 4, 5, 4, 5,
+        4, 5, 4, 5, 3, 5, 4, 5, 4, 5, 4, 5, 3, 4, 5, 4, 3, 5, 5, 4, 5, 4, 5, 5,
+        5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "deliveryTimeRange": "15-25mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [
+        {
+          "id": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "name": "Pad Thai"
+        },
+        {
+          "id": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "name": "Salad"
+        },
+        {
+          "id": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "name": "Soup"
+        },
+        {
+          "id": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "name": "Curry"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "3a36cbe3-6d3b-4239-9ea4-249f25d078db",
+          "name": "Pad Thai",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "3b74ebc6-5b6d-41c8-98a2-bd7e5e2f5aeb",
+          "name": "Tom Yum Soup",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "photoUrl": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "c4201a25-9318-4ed9-9e88-1fbdaaa421f8",
+          "name": "Green Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "75031a09-4d17-4a4a-a1d2-eae4d48a4a12",
+          "name": "Pad See Ew",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.pexels.com/photos/12481161/pexels-photo-12481161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "7745c7d1-6e9c-4420-8162-60ef7d30b100",
+          "name": "Massaman Curry",
+          "price": 14.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1627366422957-3efa9c6df0fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "9a17c7a6-bf58-49e7-90f1-40b46a64b2ce",
+          "name": "Papaya Salad",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": 7.99,
+          "categoryId": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "photoUrl": "https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_1280.jpg"
+        },
+        {
+          "id": "6c01e4a3-6d70-45b9-9a7a-cd2bdcff7a03",
+          "name": "Red Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": [
+        "81cd768f-2890-4acb-bf7d-1e834945b460",
+        "eae5ffef-bb27-4bf9-9193-dd4ae6be3221"
+      ],
+      "sale": false,
+      "topEat": true
+    },
+    {
+      "id": "bd75137b-09a8-415e-b264-31ebc0cfaa24",
+      "name": "Thai Basil",
+      "ratings": [
+        4, 5, 3, 5, 4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 4, 5, 3, 5, 4, 5, 3, 5, 4, 5,
+        3, 5, 4, 5, 4, 5, 5, 5, 3, 5, 4, 5
+      ],
+      "deliveryOptions": [0],
+      "mainPhotoUrl": "https://images.pexels.com/photos/175753/pexels-photo-175753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "deliveryTimeRange": "35-45mins",
+      "deliveryPrice": 0,
+      "menuCategories": [
+        {
+          "id": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "name": "Pad Thai"
+        },
+        {
+          "id": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "name": "Salad"
+        },
+        {
+          "id": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "name": "Soup"
+        },
+        {
+          "id": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "name": "Curry"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "3a36cbe3-6d3b-4239-9ea4-249f25d078db",
+          "name": "Pad Thai",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "3b74ebc6-5b6d-41c8-98a2-bd7e5e2f5aeb",
+          "name": "Tom Yum Soup",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "photoUrl": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "c4201a25-9318-4ed9-9e88-1fbdaaa421f8",
+          "name": "Green Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "75031a09-4d17-4a4a-a1d2-eae4d48a4a12",
+          "name": "Pad See Ew",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.pexels.com/photos/12481161/pexels-photo-12481161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "7745c7d1-6e9c-4420-8162-60ef7d30b100",
+          "name": "Massaman Curry",
+          "price": 14.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1627366422957-3efa9c6df0fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "9a17c7a6-bf58-49e7-90f1-40b46a64b2ce",
+          "name": "Papaya Salad",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": 7.99,
+          "categoryId": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "photoUrl": "https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_1280.jpg"
+        },
+        {
+          "id": "6c01e4a3-6d70-45b9-9a7a-cd2bdcff7a03",
+          "name": "Red Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "81cd768f-2890-4acb-bf7d-1e834945b460",
+        "eae5ffef-bb27-4bf9-9193-dd4ae6be3221"
+      ],
+      "sale": true,
+      "topEat": true
+    },
+    {
+      "id": "67586226-b58f-4bdd-bde5-6b3ea5b2e0a4",
+      "name": "Siam Spice",
+      "ratings": [4, 5, 4, 5, 5, 5, 4, 5, 5, 5, 4, 5, 4, 5, 5, 5],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/628776/pexels-photo-628776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "deliveryTimeRange": "15-20mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [
+        {
+          "id": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "name": "Pad Thai"
+        },
+        {
+          "id": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "name": "Salad"
+        },
+        {
+          "id": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "name": "Soup"
+        },
+        {
+          "id": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "name": "Curry"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "3a36cbe3-6d3b-4239-9ea4-249f25d078db",
+          "name": "Pad Thai",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "3b74ebc6-5b6d-41c8-98a2-bd7e5e2f5aeb",
+          "name": "Tom Yum Soup",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "photoUrl": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "c4201a25-9318-4ed9-9e88-1fbdaaa421f8",
+          "name": "Green Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "75031a09-4d17-4a4a-a1d2-eae4d48a4a12",
+          "name": "Pad See Ew",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.pexels.com/photos/12481161/pexels-photo-12481161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "7745c7d1-6e9c-4420-8162-60ef7d30b100",
+          "name": "Massaman Curry",
+          "price": 14.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1627366422957-3efa9c6df0fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "9a17c7a6-bf58-49e7-90f1-40b46a64b2ce",
+          "name": "Papaya Salad",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": 7.99,
+          "categoryId": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "photoUrl": "https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_1280.jpg"
+        },
+        {
+          "id": "6c01e4a3-6d70-45b9-9a7a-cd2bdcff7a03",
+          "name": "Red Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": [
+        "81cd768f-2890-4acb-bf7d-1e834945b460",
+        "eae5ffef-bb27-4bf9-9193-dd4ae6be3221"
+      ],
+      "sale": false,
+      "topEat": false
+    },
+    {
+      "id": "10fe6957-c815-48a8-965d-ea1ea08f85da",
+      "name": "Chai Yo Thai",
+      "ratings": [
+        4, 5, 4, 5, 3, 5, 5, 5, 5, 5, 4, 5, 3, 5, 5, 5, 4, 5, 4, 5, 4, 5, 5, 5,
+        5, 3, 5, 4, 5, 4, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0],
+      "mainPhotoUrl": "https://images.pexels.com/photos/33242/cooking-ingredient-cuisine-kitchen.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "deliveryTimeRange": "35-45mins",
+      "deliveryPrice": 0,
+      "menuCategories": [
+        {
+          "id": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "name": "Pad Thai"
+        },
+        {
+          "id": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "name": "Salad"
+        },
+        {
+          "id": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "name": "Soup"
+        },
+        {
+          "id": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "name": "Curry"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "3a36cbe3-6d3b-4239-9ea4-249f25d078db",
+          "name": "Pad Thai",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "3b74ebc6-5b6d-41c8-98a2-bd7e5e2f5aeb",
+          "name": "Tom Yum Soup",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "photoUrl": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "c4201a25-9318-4ed9-9e88-1fbdaaa421f8",
+          "name": "Green Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "75031a09-4d17-4a4a-a1d2-eae4d48a4a12",
+          "name": "Pad See Ew",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.pexels.com/photos/12481161/pexels-photo-12481161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "7745c7d1-6e9c-4420-8162-60ef7d30b100",
+          "name": "Massaman Curry",
+          "price": 14.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1627366422957-3efa9c6df0fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "9a17c7a6-bf58-49e7-90f1-40b46a64b2ce",
+          "name": "Papaya Salad",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": 7.99,
+          "categoryId": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "photoUrl": "https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_1280.jpg"
+        },
+        {
+          "id": "6c01e4a3-6d70-45b9-9a7a-cd2bdcff7a03",
+          "name": "Red Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "81cd768f-2890-4acb-bf7d-1e834945b460",
+        "eae5ffef-bb27-4bf9-9193-dd4ae6be3221"
+      ],
+      "sale": true,
+      "topEat": false
+    },
+    {
+      "id": "6e19ebb5-f91a-4b95-beb4-34639d6dbc00",
+      "name": "Thai Orchid",
+      "ratings": [
+        4, 5, 3, 5, 4, 5, 4, 5, 3, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 4, 5, 5, 5,
+        5, 5, 4, 5, 5, 5, 5, 5, 4, 5, 3, 4, 5, 4, 5, 4
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "deliveryTimeRange": "15-20mins",
+      "deliveryPrice": 2.99,
+      "menuCategories": [
+        {
+          "id": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "name": "Pad Thai"
+        },
+        {
+          "id": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "name": "Salad"
+        },
+        {
+          "id": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "name": "Soup"
+        },
+        {
+          "id": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "name": "Curry"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "3a36cbe3-6d3b-4239-9ea4-249f25d078db",
+          "name": "Pad Thai",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "3b74ebc6-5b6d-41c8-98a2-bd7e5e2f5aeb",
+          "name": "Tom Yum Soup",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "photoUrl": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "c4201a25-9318-4ed9-9e88-1fbdaaa421f8",
+          "name": "Green Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "75031a09-4d17-4a4a-a1d2-eae4d48a4a12",
+          "name": "Pad See Ew",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.pexels.com/photos/12481161/pexels-photo-12481161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "7745c7d1-6e9c-4420-8162-60ef7d30b100",
+          "name": "Massaman Curry",
+          "price": 14.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1627366422957-3efa9c6df0fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "9a17c7a6-bf58-49e7-90f1-40b46a64b2ce",
+          "name": "Papaya Salad",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": 7.99,
+          "categoryId": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "photoUrl": "https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_1280.jpg"
+        },
+        {
+          "id": "6c01e4a3-6d70-45b9-9a7a-cd2bdcff7a03",
+          "name": "Red Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": [
+        "81cd768f-2890-4acb-bf7d-1e834945b460",
+        "eae5ffef-bb27-4bf9-9193-dd4ae6be3221"
+      ],
+      "sale": false,
+      "topEat": true
+    },
+    {
+      "id": "aa86c95c-02fb-41e4-b671-0947387f844b",
+      "name": "Elephant Thai Kitchen",
+      "ratings": [
+        4, 3, 5, 4, 5, 4, 5, 5, 5, 3, 4, 5, 5, 4, 5, 4, 3, 4, 5, 5, 5, 5, 5, 4,
+        5, 4, 5, 5, 5, 5, 3, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "deliveryTimeRange": "35-45mins",
+      "deliveryPrice": 1.99,
+      "menuCategories": [
+        {
+          "id": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "name": "Pad Thai"
+        },
+        {
+          "id": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "name": "Salad"
+        },
+        {
+          "id": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "name": "Soup"
+        },
+        {
+          "id": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "name": "Curry"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "3a36cbe3-6d3b-4239-9ea4-249f25d078db",
+          "name": "Pad Thai",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "3b74ebc6-5b6d-41c8-98a2-bd7e5e2f5aeb",
+          "name": "Tom Yum Soup",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "photoUrl": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "c4201a25-9318-4ed9-9e88-1fbdaaa421f8",
+          "name": "Green Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "75031a09-4d17-4a4a-a1d2-eae4d48a4a12",
+          "name": "Pad See Ew",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.pexels.com/photos/12481161/pexels-photo-12481161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "7745c7d1-6e9c-4420-8162-60ef7d30b100",
+          "name": "Massaman Curry",
+          "price": 14.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1627366422957-3efa9c6df0fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "9a17c7a6-bf58-49e7-90f1-40b46a64b2ce",
+          "name": "Papaya Salad",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": 7.99,
+          "categoryId": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "photoUrl": "https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_1280.jpg"
+        },
+        {
+          "id": "6c01e4a3-6d70-45b9-9a7a-cd2bdcff7a03",
+          "name": "Red Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": [
+        "81cd768f-2890-4acb-bf7d-1e834945b460",
+        "eae5ffef-bb27-4bf9-9193-dd4ae6be3221"
+      ],
+      "sale": true,
+      "topEat": false
+    },
+    {
+      "id": "83d65347-4002-4ba2-aca4-32048908f3f2",
+      "name": "Thai Elephant",
+      "ratings": [
+        5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5,
+        4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "deliveryTimeRange": "35-45mins",
+      "deliveryPrice": 1.99,
+      "menuCategories": [
+        {
+          "id": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "name": "Pad Thai"
+        },
+        {
+          "id": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "name": "Salad"
+        },
+        {
+          "id": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "name": "Soup"
+        },
+        {
+          "id": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "name": "Curry"
+        }
+      ],
+      "menuItems": [
+        {
+          "id": "3a36cbe3-6d3b-4239-9ea4-249f25d078db",
+          "name": "Pad Thai",
+          "price": 12.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.unsplash.com/photo-1559314809-0d155014e29e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "3b74ebc6-5b6d-41c8-98a2-bd7e5e2f5aeb",
+          "name": "Tom Yum Soup",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "912a7874-db81-49ec-80e8-e5a803c75818",
+          "photoUrl": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+        },
+        {
+          "id": "c4201a25-9318-4ed9-9e88-1fbdaaa421f8",
+          "name": "Green Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "75031a09-4d17-4a4a-a1d2-eae4d48a4a12",
+          "name": "Pad See Ew",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63e2703f-1d5d-4b5d-bf49-5f261eb68d4d",
+          "photoUrl": "https://images.pexels.com/photos/12481161/pexels-photo-12481161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "7745c7d1-6e9c-4420-8162-60ef7d30b100",
+          "name": "Massaman Curry",
+          "price": 14.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1627366422957-3efa9c6df0fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "9a17c7a6-bf58-49e7-90f1-40b46a64b2ce",
+          "name": "Papaya Salad",
+          "price": 9.99,
+          "isPopular": false,
+          "discountedPrice": 7.99,
+          "categoryId": "6eae3805-a7fd-41a1-8f46-e70f69c4ecb5",
+          "photoUrl": "https://cdn.pixabay.com/photo/2015/04/07/07/51/papaya-salad-710613_1280.jpg"
+        },
+        {
+          "id": "6c01e4a3-6d70-45b9-9a7a-cd2bdcff7a03",
+          "name": "Red Curry",
+          "price": 13.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "dbbaa6cd-1221-4ed6-8e38-88162fb1aa0d",
+          "photoUrl": "https://images.unsplash.com/photo-1574653853027-5382a3d23a15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": [
+        "81cd768f-2890-4acb-bf7d-1e834945b460",
+        "eae5ffef-bb27-4bf9-9193-dd4ae6be3221"
+      ],
+      "sale": false,
+      "topEat": false
+    },
+    {
+      "id": "e38bf43e-c107-40c9-b514-970f3dd923e6",
+      "name": "The Coffee House",
+      "ratings": [
+        4, 5, 4, 5, 3, 3, 4, 5, 5, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 3, 4,
+        5, 5, 5, 4, 4, 4, 5, 5, 5, 3, 3, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5,
+        5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 1.99,
+      "menuCategories": [
+        { "id": "d63f124b-91e2-4587-ab8c-0b3730c7355a", "name": "Coffee" },
+        { "id": "c05e10c7-0250-415e-b504-1416994fa11c", "name": "Cakes" }
+      ],
+      "menuItems": [
+        {
+          "id": "c8266a23-6c8e-4d15-aa72-81d7872b4e9c",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZXNwcmVzc298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+          "id": "a1565b5f-27e2-4b9d-9c17-496dd1f2c152",
+          "name": "Cappuccino",
+          "price": 3.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "6c0c6bc4-5394-4ee4-bcb1-88e6de21c6dc",
+          "name": "Latte",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "df8b8ca1-2c19-4dd3-9d01-bf1e20b79c0d",
+          "name": "Mocha",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": 4.99,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1602671784371-042db95df1c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "8d52969b-580f-40c3-87d8-38e76e16f37b",
+          "name": "Americano",
+          "price": 3.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        },
+        {
+          "id": "fe1163c4-054d-4f69-992c-03ba2c2ed6df",
+          "name": "Chocolate Cake",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.unsplash.com/photo-1597083722160-c31d67d4af44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80"
+        },
+        {
+          "id": "1c7cf8f2-447a-4752-a2d1-7e0b174f9cc7",
+          "name": "Carrot Cake",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.pexels.com/photos/5594503/pexels-photo-5594503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "d8699c52-5743-4fee-8291-012af701c5fb",
+        "2e5390fa-e76c-4e17-a6df-52b3a9770eb3"
+      ],
+      "sale": false,
+      "topEat": true
+    },
+    {
+      "id": "d87b1a3e-9439-401e-a564-ea4cb5ed1860",
+      "name": "Brewed Awakening",
+      "ratings": [
+        4, 5, 4, 5, 5, 5, 4, 4, 5, 5, 5, 4, 4, 4, 5, 5, 5, 5, 5, 4, 5, 3, 5, 4,
+        4, 5, 4, 4, 4, 5, 5, 5, 4, 5, 5, 3, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "deliveryTimeRange": null,
+      "deliveryPrice": 0,
+      "menuCategories": [
+        { "id": "d63f124b-91e2-4587-ab8c-0b3730c7355a", "name": "Coffee" },
+        { "id": "c05e10c7-0250-415e-b504-1416994fa11c", "name": "Cakes" }
+      ],
+      "menuItems": [
+        {
+          "id": "c8266a23-6c8e-4d15-aa72-81d7872b4e9c",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZXNwcmVzc298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+          "id": "a1565b5f-27e2-4b9d-9c17-496dd1f2c152",
+          "name": "Cappuccino",
+          "price": 3.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "6c0c6bc4-5394-4ee4-bcb1-88e6de21c6dc",
+          "name": "Latte",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "df8b8ca1-2c19-4dd3-9d01-bf1e20b79c0d",
+          "name": "Mocha",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": 4.99,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1602671784371-042db95df1c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "8d52969b-580f-40c3-87d8-38e76e16f37b",
+          "name": "Americano",
+          "price": 3.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        },
+        {
+          "id": "fe1163c4-054d-4f69-992c-03ba2c2ed6df",
+          "name": "Chocolate Cake",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.unsplash.com/photo-1597083722160-c31d67d4af44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80"
+        },
+        {
+          "id": "1c7cf8f2-447a-4752-a2d1-7e0b174f9cc7",
+          "name": "Carrot Cake",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.pexels.com/photos/5594503/pexels-photo-5594503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": ["d8699c52-5743-4fee-8291-012af701c5fb"],
+      "sale": true,
+      "topEat": true
+    },
+    {
+      "id": "25d64bcf-efd2-4c37-9cba-b62138afd4e9",
+      "name": "Daily Grind",
+      "ratings": [
+        4, 5, 4, 5, 5, 5, 5, 4, 4, 5, 5, 5, 5, 5, 3, 5, 5, 5, 5, 5, 5, 5, 4, 5,
+        5, 5, 5, 5, 3, 5, 5, 5, 4, 5, 5, 4, 5, 5, 4, 5, 3, 5, 4, 5, 3, 5, 3, 5,
+        4, 3, 5, 4, 5, 5
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1513267048331-5611cad62e41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "deliveryTimeRange": null,
+      "deliveryPrice": 0,
+      "menuCategories": [
+        { "id": "d63f124b-91e2-4587-ab8c-0b3730c7355a", "name": "Coffee" },
+        { "id": "c05e10c7-0250-415e-b504-1416994fa11c", "name": "Cakes" }
+      ],
+      "menuItems": [
+        {
+          "id": "c8266a23-6c8e-4d15-aa72-81d7872b4e9c",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZXNwcmVzc298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+          "id": "a1565b5f-27e2-4b9d-9c17-496dd1f2c152",
+          "name": "Cappuccino",
+          "price": 3.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "6c0c6bc4-5394-4ee4-bcb1-88e6de21c6dc",
+          "name": "Latte",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "df8b8ca1-2c19-4dd3-9d01-bf1e20b79c0d",
+          "name": "Mocha",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": 4.99,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1602671784371-042db95df1c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "8d52969b-580f-40c3-87d8-38e76e16f37b",
+          "name": "Americano",
+          "price": 3.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        },
+        {
+          "id": "fe1163c4-054d-4f69-992c-03ba2c2ed6df",
+          "name": "Chocolate Cake",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.unsplash.com/photo-1597083722160-c31d67d4af44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80"
+        },
+        {
+          "id": "1c7cf8f2-447a-4752-a2d1-7e0b174f9cc7",
+          "name": "Carrot Cake",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.pexels.com/photos/5594503/pexels-photo-5594503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": [
+        "d8699c52-5743-4fee-8291-012af701c5fb",
+        "a65730a0-a5c6-4564-a198-d91d630cde7c"
+      ],
+      "sale": false,
+      "topEat": false
+    },
+    {
+      "id": "0ed432df-fa3f-4077-b626-3c147c7407ef",
+      "name": "The Grind Cafe",
+      "ratings": [
+        4, 5, 4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5,
+        5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "deliveryTimeRange": null,
+      "deliveryPrice": 0,
+      "menuCategories": [
+        { "id": "d63f124b-91e2-4587-ab8c-0b3730c7355a", "name": "Coffee" },
+        { "id": "c05e10c7-0250-415e-b504-1416994fa11c", "name": "Cakes" }
+      ],
+      "menuItems": [
+        {
+          "id": "c8266a23-6c8e-4d15-aa72-81d7872b4e9c",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZXNwcmVzc298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+          "id": "a1565b5f-27e2-4b9d-9c17-496dd1f2c152",
+          "name": "Cappuccino",
+          "price": 3.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "6c0c6bc4-5394-4ee4-bcb1-88e6de21c6dc",
+          "name": "Latte",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "df8b8ca1-2c19-4dd3-9d01-bf1e20b79c0d",
+          "name": "Mocha",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": 4.99,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1602671784371-042db95df1c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "8d52969b-580f-40c3-87d8-38e76e16f37b",
+          "name": "Americano",
+          "price": 3.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        },
+        {
+          "id": "fe1163c4-054d-4f69-992c-03ba2c2ed6df",
+          "name": "Chocolate Cake",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.unsplash.com/photo-1597083722160-c31d67d4af44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80"
+        },
+        {
+          "id": "1c7cf8f2-447a-4752-a2d1-7e0b174f9cc7",
+          "name": "Carrot Cake",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.pexels.com/photos/5594503/pexels-photo-5594503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "d8699c52-5743-4fee-8291-012af701c5fb",
+        "2e5390fa-e76c-4e17-a6df-52b3a9770eb3"
+      ],
+      "sale": true,
+      "topEat": false
+    },
+    {
+      "id": "7833e642-7179-4a65-9566-d64e53161c77",
+      "name": "Perky's Cafe",
+      "ratings": [
+        4, 5, 5, 4, 5, 3, 5, 5, 5, 5, 5, 5, 3, 5, 4, 5, 5, 5, 5, 5, 5, 3, 5, 4,
+        5, 4, 3, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1447&q=80",
+      "deliveryTimeRange": null,
+      "deliveryPrice": 0,
+      "menuCategories": [
+        { "id": "d63f124b-91e2-4587-ab8c-0b3730c7355a", "name": "Coffee" },
+        { "id": "c05e10c7-0250-415e-b504-1416994fa11c", "name": "Cakes" }
+      ],
+      "menuItems": [
+        {
+          "id": "c8266a23-6c8e-4d15-aa72-81d7872b4e9c",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZXNwcmVzc298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+          "id": "a1565b5f-27e2-4b9d-9c17-496dd1f2c152",
+          "name": "Cappuccino",
+          "price": 3.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "6c0c6bc4-5394-4ee4-bcb1-88e6de21c6dc",
+          "name": "Latte",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "df8b8ca1-2c19-4dd3-9d01-bf1e20b79c0d",
+          "name": "Mocha",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": 4.99,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1602671784371-042db95df1c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "8d52969b-580f-40c3-87d8-38e76e16f37b",
+          "name": "Americano",
+          "price": 3.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        },
+        {
+          "id": "fe1163c4-054d-4f69-992c-03ba2c2ed6df",
+          "name": "Chocolate Cake",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.unsplash.com/photo-1597083722160-c31d67d4af44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80"
+        },
+        {
+          "id": "1c7cf8f2-447a-4752-a2d1-7e0b174f9cc7",
+          "name": "Carrot Cake",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.pexels.com/photos/5594503/pexels-photo-5594503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": [
+        "d8699c52-5743-4fee-8291-012af701c5fb",
+        "2e5390fa-e76c-4e17-a6df-52b3a9770eb3"
+      ],
+      "sale": false,
+      "topEat": false
+    },
+    {
+      "id": "6128cae8-8a56-4f12-9b13-e49927595a43",
+      "name": "The Mocha Cafe",
+      "ratings": [
+        4, 5, 3, 3, 5, 5, 4, 5, 4, 4, 4, 5, 5, 4, 5, 4, 5, 4, 5, 3, 5, 4, 5, 5,
+        5, 5, 5, 4, 5, 6
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "deliveryTimeRange": "25-35mins",
+      "deliveryPrice": 1.99,
+      "menuCategories": [
+        { "id": "d63f124b-91e2-4587-ab8c-0b3730c7355a", "name": "Coffee" },
+        { "id": "c05e10c7-0250-415e-b504-1416994fa11c", "name": "Cakes" }
+      ],
+      "menuItems": [
+        {
+          "id": "c8266a23-6c8e-4d15-aa72-81d7872b4e9c",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZXNwcmVzc298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+          "id": "a1565b5f-27e2-4b9d-9c17-496dd1f2c152",
+          "name": "Cappuccino",
+          "price": 3.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "6c0c6bc4-5394-4ee4-bcb1-88e6de21c6dc",
+          "name": "Latte",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "df8b8ca1-2c19-4dd3-9d01-bf1e20b79c0d",
+          "name": "Mocha",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": 4.99,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1602671784371-042db95df1c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "8d52969b-580f-40c3-87d8-38e76e16f37b",
+          "name": "Americano",
+          "price": 3.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        },
+        {
+          "id": "fe1163c4-054d-4f69-992c-03ba2c2ed6df",
+          "name": "Chocolate Cake",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.unsplash.com/photo-1597083722160-c31d67d4af44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80"
+        },
+        {
+          "id": "1c7cf8f2-447a-4752-a2d1-7e0b174f9cc7",
+          "name": "Carrot Cake",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.pexels.com/photos/5594503/pexels-photo-5594503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "d8699c52-5743-4fee-8291-012af701c5fb",
+        "2e5390fa-e76c-4e17-a6df-52b3a9770eb3",
+        "a65730a0-a5c6-4564-a198-d91d630cde7c"
+      ],
+      "sale": true,
+      "topEat": false
+    },
+    {
+      "id": "8132ce0e-bfbf-47b7-b15e-fa164a474df1",
+      "name": "Cafe au Lait",
+      "ratings": [
+        5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 4, 3, 5, 5, 5, 5, 4, 5,
+        3, 5, 5, 5, 5, 5, 5
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80",
+      "deliveryTimeRange": null,
+      "deliveryPrice": 0,
+      "menuCategories": [
+        { "id": "d63f124b-91e2-4587-ab8c-0b3730c7355a", "name": "Coffee" },
+        { "id": "c05e10c7-0250-415e-b504-1416994fa11c", "name": "Cakes" }
+      ],
+      "menuItems": [
+        {
+          "id": "c8266a23-6c8e-4d15-aa72-81d7872b4e9c",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZXNwcmVzc298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+        },
+        {
+          "id": "a1565b5f-27e2-4b9d-9c17-496dd1f2c152",
+          "name": "Cappuccino",
+          "price": 3.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "6c0c6bc4-5394-4ee4-bcb1-88e6de21c6dc",
+          "name": "Latte",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.pexels.com/photos/302905/pexels-photo-302905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "df8b8ca1-2c19-4dd3-9d01-bf1e20b79c0d",
+          "name": "Mocha",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": 4.99,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1602671784371-042db95df1c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "8d52969b-580f-40c3-87d8-38e76e16f37b",
+          "name": "Americano",
+          "price": 3.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "d63f124b-91e2-4587-ab8c-0b3730c7355a",
+          "photoUrl": "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
+        },
+        {
+          "id": "fe1163c4-054d-4f69-992c-03ba2c2ed6df",
+          "name": "Chocolate Cake",
+          "price": 4.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.unsplash.com/photo-1597083722160-c31d67d4af44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80"
+        },
+        {
+          "id": "1c7cf8f2-447a-4752-a2d1-7e0b174f9cc7",
+          "name": "Carrot Cake",
+          "price": 5.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "c05e10c7-0250-415e-b504-1416994fa11c",
+          "photoUrl": "https://images.pexels.com/photos/5594503/pexels-photo-5594503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": [
+        "d8699c52-5743-4fee-8291-012af701c5fb",
+        "a65730a0-a5c6-4564-a198-d91d630cde7c"
+      ],
+      "sale": false,
+      "topEat": true
+    },
+    {
+      "id": "4b8a7ed6-e2d9-45d4-947f-75d9a89c736b",
+      "name": "The Breakfast Club",
+      "ratings": [
+        4, 5, 5, 5, 5, 5, 5, 4, 5, 5, 4, 4, 4, 5, 5, 5, 5, 5, 5, 3, 5, 5, 5, 5,
+        5, 4, 5, 5, 5, 4, 5, 5
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "deliveryTimeRange": null,
+      "deliveryPrice": 0,
+      "menuCategories": [
+        { "id": "f8bc14d1-93d7-4bcb-a1a4-0283a7dc4578", "name": "Eggs" },
+        { "id": "63b63174-dfcc-4e62-9313-0f104d8129dd", "name": "Sandwiches" },
+        { "id": "acb9697d-c752-444c-9170-eb9f59391d08", "name": "Coffee" }
+      ],
+      "menuItems": [
+        {
+          "id": "4a4a8f2c-5a85-42d5-a5e5-8f08db0bc176",
+          "name": "Scrambled Eggs",
+          "price": 7.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "f8bc14d1-93d7-4bcb-a1a4-0283a7dc4578",
+          "photoUrl": "https://images.unsplash.com/photo-1525184782196-8e2ded604bf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "id": "1c8cc14b-0263-44a3-856d-86e8cda78232",
+          "name": "Egg Sandwich",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.pexels.com/photos/2293537/pexels-photo-2293537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "65f2ef0d-19a9-498a-954f-93e7e8710f3b",
+          "name": "Frittata",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "f8bc14d1-93d7-4bcb-a1a4-0283a7dc4578",
+          "photoUrl": "https://images.pexels.com/photos/4103221/pexels-photo-4103221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "ba5b7f4e-4d4c-4a06-89f7-6b9f9b1f8365",
+          "name": "BLT Sandwich",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.unsplash.com/photo-1626920370508-cf4d8f916448?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80"
+        },
+        {
+          "id": "f22a2b9e-122b-441e-96f6-1b6f6340f937",
+          "name": "Egg and Cheese Sandwich",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.unsplash.com/photo-1569159316006-900e88b5dbc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1708&q=80"
+        },
+        {
+          "id": "ec12c6fb-196e-447f-89b5-2aa28c83d5bb",
+          "name": "Avocado Toast",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.unsplash.com/photo-1490323814405-4aa634235c2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "4cc43f87-0b07-46b1-a9d7-63efdc2f5277",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "acb9697d-c752-444c-9170-eb9f59391d08",
+          "photoUrl": "https://images.unsplash.com/photo-1508088405209-fbd63b6a4f50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+        }
+      ],
+      "priceRange": 1,
+      "foodCategories": ["a65730a0-a5c6-4564-a198-d91d630cde7c"],
+      "sale": false,
+      "topEat": true
+    },
+    {
+      "id": "da3067ff-2c2e-47f4-8a69-831f9a806329",
+      "name": "Rise & Dine",
+      "ratings": [
+        5, 4, 5, 4, 4, 5, 5, 5, 5, 5, 3, 5, 5, 5, 4, 5, 5, 5, 4, 3, 5, 4, 4, 4,
+        5, 5, 5, 5
+      ],
+      "deliveryOptions": [1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "deliveryTimeRange": null,
+      "deliveryPrice": 0,
+      "menuCategories": [
+        { "id": "f8bc14d1-93d7-4bcb-a1a4-0283a7dc4578", "name": "Eggs" },
+        { "id": "63b63174-dfcc-4e62-9313-0f104d8129dd", "name": "Sandwiches" },
+        { "id": "acb9697d-c752-444c-9170-eb9f59391d08", "name": "Coffee" }
+      ],
+
+      "menuItems": [
+        {
+          "id": "4a4a8f2c-5a85-42d5-a5e5-8f08db0bc176",
+          "name": "Scrambled Eggs",
+          "price": 7.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "f8bc14d1-93d7-4bcb-a1a4-0283a7dc4578",
+          "photoUrl": "https://images.unsplash.com/photo-1525184782196-8e2ded604bf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "id": "1c8cc14b-0263-44a3-856d-86e8cda78232",
+          "name": "Egg Sandwich",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.pexels.com/photos/2293537/pexels-photo-2293537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "65f2ef0d-19a9-498a-954f-93e7e8710f3b",
+          "name": "Frittata",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "f8bc14d1-93d7-4bcb-a1a4-0283a7dc4578",
+          "photoUrl": "https://images.pexels.com/photos/4103221/pexels-photo-4103221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "ba5b7f4e-4d4c-4a06-89f7-6b9f9b1f8365",
+          "name": "BLT Sandwich",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.unsplash.com/photo-1626920370508-cf4d8f916448?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80"
+        },
+        {
+          "id": "f22a2b9e-122b-441e-96f6-1b6f6340f937",
+          "name": "Egg and Cheese Sandwich",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.unsplash.com/photo-1569159316006-900e88b5dbc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1708&q=80"
+        },
+        {
+          "id": "ec12c6fb-196e-447f-89b5-2aa28c83d5bb",
+          "name": "Avocado Toast",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.unsplash.com/photo-1490323814405-4aa634235c2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "4cc43f87-0b07-46b1-a9d7-63efdc2f5277",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "acb9697d-c752-444c-9170-eb9f59391d08",
+          "photoUrl": "https://images.unsplash.com/photo-1508088405209-fbd63b6a4f50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+        }
+      ],
+      "priceRange": 2,
+      "foodCategories": [
+        "a65730a0-a5c6-4564-a198-d91d630cde7c",
+        "2e5390fa-e76c-4e17-a6df-52b3a9770eb3"
+      ],
+      "sale": false,
+      "topEat": false
+    },
+    {
+      "id": "6a467188-cfbc-4385-be5c-2b360a2df46f",
+      "name": "Early Bird Breakfast House",
+      "ratings": [
+        5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 4,
+        5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 4,
+        5, 5, 5, 4, 5
+      ],
+      "deliveryOptions": [0, 1],
+      "mainPhotoUrl": "https://images.unsplash.com/photo-1633327760690-d9bb0513f942?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "deliveryTimeRange": "35-45mins",
+      "deliveryPrice": 1.99,
+      "menuCategories": [
+        { "id": "f8bc14d1-93d7-4bcb-a1a4-0283a7dc4578", "name": "Eggs" },
+        { "id": "63b63174-dfcc-4e62-9313-0f104d8129dd", "name": "Sandwiches" },
+        { "id": "acb9697d-c752-444c-9170-eb9f59391d08", "name": "Coffee" }
+      ],
+
+      "menuItems": [
+        {
+          "id": "4a4a8f2c-5a85-42d5-a5e5-8f08db0bc176",
+          "name": "Scrambled Eggs",
+          "price": 7.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "f8bc14d1-93d7-4bcb-a1a4-0283a7dc4578",
+          "photoUrl": "https://images.unsplash.com/photo-1525184782196-8e2ded604bf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+        },
+        {
+          "id": "1c8cc14b-0263-44a3-856d-86e8cda78232",
+          "name": "Egg Sandwich",
+          "price": 8.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.pexels.com/photos/2293537/pexels-photo-2293537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "65f2ef0d-19a9-498a-954f-93e7e8710f3b",
+          "name": "Frittata",
+          "price": 9.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "f8bc14d1-93d7-4bcb-a1a4-0283a7dc4578",
+          "photoUrl": "https://images.pexels.com/photos/4103221/pexels-photo-4103221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        },
+        {
+          "id": "ba5b7f4e-4d4c-4a06-89f7-6b9f9b1f8365",
+          "name": "BLT Sandwich",
+          "price": 10.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.unsplash.com/photo-1626920370508-cf4d8f916448?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80"
+        },
+        {
+          "id": "f22a2b9e-122b-441e-96f6-1b6f6340f937",
+          "name": "Egg and Cheese Sandwich",
+          "price": 8.99,
+          "isPopular": true,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.unsplash.com/photo-1569159316006-900e88b5dbc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1708&q=80"
+        },
+        {
+          "id": "ec12c6fb-196e-447f-89b5-2aa28c83d5bb",
+          "name": "Avocado Toast",
+          "price": 11.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "63b63174-dfcc-4e62-9313-0f104d8129dd",
+          "photoUrl": "https://images.unsplash.com/photo-1490323814405-4aa634235c2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+        },
+        {
+          "id": "4cc43f87-0b07-46b1-a9d7-63efdc2f5277",
+          "name": "Espresso",
+          "price": 2.99,
+          "isPopular": false,
+          "discountedPrice": null,
+          "categoryId": "acb9697d-c752-444c-9170-eb9f59391d08",
+          "photoUrl": "https://images.unsplash.com/photo-1508088405209-fbd63b6a4f50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+        }
+      ],
+      "priceRange": 0,
+      "foodCategories": ["a65730a0-a5c6-4564-a198-d91d630cde7c"],
+      "sale": false,
+      "topEat": false
     }
   ],
   "categories": [
@@ -2864,8 +5376,8 @@
     },
     {
       "id": "eae5ffef-bb27-4bf9-9193-dd4ae6be3221",
-      "name": "Burrito",
-      "iconUrl": "https://cdn.pixabay.com/photo/2017/10/24/10/10/taco-2883992_960_720.png"
+      "name": "Thai Food",
+      "iconUrl": "https://cdn-icons-png.flaticon.com/512/5141/5141570.png"
     },
     {
       "id": "81cd768f-2890-4acb-bf7d-1e834945b460",
@@ -2883,16 +5395,6 @@
       "iconUrl": "https://cdn.pixabay.com/photo/2018/08/30/16/57/coffee-3642712_960_720.png"
     },
     {
-      "id": "49f92f3c-2fe9-4342-92c6-bc2c9e76409c",
-      "name": "Ice Cream",
-      "iconUrl": "https://cdn-icons-png.flaticon.com/512/1804/1804098.png"
-    },
-    {
-      "id": "1299c9d4-c05b-427c-aa91-fd26ba696d89",
-      "name": "Donut",
-      "iconUrl": "https://cdn.pixabay.com/photo/2022/08/25/12/04/donut-7410114_960_720.jpg"
-    },
-    {
       "id": "2e5390fa-e76c-4e17-a6df-52b3a9770eb3",
       "name": "Vegan",
       "iconUrl": "https://uxwing.com/wp-content/themes/uxwing/download/food-and-drinks/vegan-icon.png"
@@ -2901,11 +5403,6 @@
       "id": "a65730a0-a5c6-4564-a198-d91d630cde7c",
       "name": "Breakfasts",
       "iconUrl": "https://cdn-icons-png.flaticon.com/512/2913/2913181.png"
-    },
-    {
-      "id": "a900735e-1d6a-4695-a137-bd6df47e9247",
-      "name": "Dumplings",
-      "iconUrl": "https://cdn-icons-png.flaticon.com/512/6166/6166230.png"
     }
   ]
 }

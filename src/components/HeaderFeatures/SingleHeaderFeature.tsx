@@ -7,7 +7,7 @@ type Props = {
   title: string;
   subtitle: string;
   ctaTitle: string;
-  ctaLink: string;
+  cta: () => void;
 };
 
 export const SingleHeaderFeature = ({
@@ -17,6 +17,7 @@ export const SingleHeaderFeature = ({
   subtitle,
   imageUrl,
   ctaTitle,
+  cta,
 }: Props) => {
   return (
     <div className="flex basis-1/3 rounded-xl h-48 overflow-hidden shadow-lg min-w-[400px]">
@@ -25,12 +26,12 @@ export const SingleHeaderFeature = ({
           <span className="block text-2xl">{title}</span>
           <span className="block ">{subtitle}</span>
         </div>
-        <Link
-          to=""
+        <button
+          onClick={cta}
           className="w-fit px-2 rounded-md font-medium bg-white/[0.9] hover:bg-white"
         >
           {ctaTitle}
-        </Link>
+        </button>
       </div>
       <div className="basis-2/5">
         <img src={imageUrl} alt="" className="h-full object-cover" />

@@ -1,15 +1,21 @@
 import { useMemo } from "react";
 import { useSelector } from "react-redux";
-import { RootState } from "../../app/store";
-import Restaurant from "../../types/Restaurant";
+import { RootState } from "../app/store";
+import Restaurant from "../types/Restaurant";
 
 export const useFilter = () => {
   const restaurants = useSelector(
     (state: RootState) => state.restaurantsReducer.restaurants
   );
 
-  const { deliveryOption, priceRange, foodCategory, topEat, sale } =
-    useSelector((state: RootState) => state.filtersReducer);
+  const {
+    deliveryOption,
+    priceRange,
+    foodCategory,
+    topEat,
+    sale,
+    freeDelivery,
+  } = useSelector((state: RootState) => state.filtersReducer);
 
   const filteredRestaurants = useMemo((): Restaurant[] => {
     const filtered = restaurants
@@ -28,11 +34,22 @@ export const useFilter = () => {
           : restaurant
       )
       .filter((restaurant) =>
-        topEat ? restaurant.topEat === topEat : restaurant
+        topEat ? restaurant.topEat === true : restaurant
       )
-      .filter((restaurant) => (sale ? restaurant.sale === sale : restaurant));
+      .filter((restaurant) => (sale ? restaurant.sale === true : restaurant))
+      .filter((restaurant) =>
+        freeDelivery ? restaurant.deliveryPrice === 0 : restaurant
+      );
     return filtered;
-  }, [restaurants, deliveryOption, priceRange, foodCategory, topEat, sale]);
+  }, [
+    restaurants,
+    deliveryOption,
+    priceRange,
+    foodCategory,
+    topEat,
+    sale,
+    freeDelivery,
+  ]);
 
   return { filteredRestaurants };
 };

@@ -5,6 +5,7 @@ type Props = {
   discountedPrice: number | null;
   isPopular?: boolean;
   selectMenuItem: React.Dispatch<React.SetStateAction<string | null>>;
+  photoUrl: string;
 };
 
 export const MenuItem = ({
@@ -14,6 +15,7 @@ export const MenuItem = ({
   discountedPrice,
   isPopular = false,
   selectMenuItem,
+  photoUrl,
 }: Props) => {
   return (
     <div
@@ -27,7 +29,7 @@ export const MenuItem = ({
         </div>
       )}
       <img
-        src="https://cdn.pixabay.com/photo/2017/09/30/15/10/plate-2802332_960_720.jpg"
+        src={photoUrl}
         alt="menu position"
         className="w-full h-48 object-cover"
       />

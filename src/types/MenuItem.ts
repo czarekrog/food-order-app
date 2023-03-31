@@ -5,6 +5,7 @@ type MenuItem = {
   isPopular: boolean;
   discountedPrice: number | null;
   categoryId: string;
+  photoUrl: string;
 };
 
 export default MenuItem;

@@ -11,7 +11,6 @@ type Restaurant = {
   mainPhotoUrl: string;
   deliveryTimeRange: string;
   deliveryPrice: number;
-  categoryId: string;
   menuCategories: MenuCategory[];
   menuItems: MenuItem[];
   priceRange: PriceRange;

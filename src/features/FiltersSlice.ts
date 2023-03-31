@@ -8,6 +8,7 @@ export interface FiltersState {
   foodCategory: string | null;
   sale: boolean;
   topEat: boolean;
+  freeDelivery: boolean;
 }
 
 const initialState: FiltersState = {
@@ -16,6 +17,7 @@ const initialState: FiltersState = {
   foodCategory: null,
   sale: false,
   topEat: false,
+  freeDelivery: false,
 };
 
 export const filtersSlice = createSlice({
@@ -44,6 +46,9 @@ export const filtersSlice = createSlice({
     toggleTopEatFilter: (state) => {
       state.topEat = !state.topEat;
     },
+    toggleFreeDeliveryFilter: (state) => {
+      state.freeDelivery = !state.freeDelivery;
+    },
   },
 });
 
@@ -54,6 +59,7 @@ export const {
   setFoodCategoryFilter,
   toggleSaleFilter,
   toggleTopEatFilter,
+  toggleFreeDeliveryFilter,
 } = filtersSlice.actions;
 
 export default filtersSlice.reducer;

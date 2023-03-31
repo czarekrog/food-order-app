@@ -5,7 +5,7 @@ import { MdOutlineDeliveryDining } from "react-icons/md";
 
 type Props = Omit<
   Restaurant,
-  "categoryId" | "menuCategories" | "menuItems" | "sale" | "topEat"
+  "menuCategories" | "menuItems" | "sale" | "topEat"
 >;
 
 export const RestaurantListItem = ({
