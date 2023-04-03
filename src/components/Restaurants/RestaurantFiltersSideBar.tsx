@@ -31,40 +31,6 @@ export const RestaurantFiltersSideBar = ({ isOpen }: Props) => {
       >
         Clear all filters
       </span>
-      {/* Sorting */}
-      <section className="text-xl mt-2">
-        <span className="text-2xl">Sort by</span>
-        <div>
-          <input
-            type="radio"
-            id="most-popular"
-            value="Most popular"
-            name="sort-by"
-            className="mr-2 w-4 h-4 my-3"
-          />
-          <label htmlFor="most-popular">Most popular</label>
-        </div>
-        <div>
-          <input
-            type="radio"
-            id="rating"
-            value="Rating"
-            name="sort-by"
-            className="mr-2 w-4 h-4 my-3"
-          />
-          <label htmlFor="rating">Rating</label>
-        </div>
-        <div>
-          <input
-            type="radio"
-            id="delivery-time"
-            value="Delivery time"
-            name="sort-by"
-            className="mr-2 w-4 h-4 my-3"
-          />
-          <label htmlFor="delivery-time">Delivery time</label>
-        </div>
-      </section>
       {/* Price Range */}
       <section className="my-4">
         <span className="text-2xl">Price range</span>

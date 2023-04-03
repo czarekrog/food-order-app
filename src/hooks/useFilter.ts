@@ -15,6 +15,7 @@ export const useFilter = () => {
     topEat,
     sale,
     freeDelivery,
+    searchTerm,
   } = useSelector((state: RootState) => state.filtersReducer);
 
   const filteredRestaurants = useMemo((): Restaurant[] => {
@@ -39,6 +40,9 @@ export const useFilter = () => {
       .filter((restaurant) => (sale ? restaurant.sale === true : restaurant))
       .filter((restaurant) =>
         freeDelivery ? restaurant.deliveryPrice === 0 : restaurant
+      )
+      .filter((restaurant) =>
+        restaurant.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
     return filtered;
   }, [
@@ -49,6 +53,7 @@ export const useFilter = () => {
     topEat,
     sale,
     freeDelivery,
+    searchTerm,
   ]);
 
   return { filteredRestaurants };

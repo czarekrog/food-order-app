@@ -34,6 +34,17 @@ export const RestaurantsList = () => {
             isOpen={isFiltersSidebarOpen}
             toggle={toggleFiltersSidebar}
           />
+
+          {/* Information about no restaurants found */}
+          {filteredRestaurants.length === 0 && (
+            <div>
+              <p className="text-lg text-center m-8">
+                No Restaurants to display. Please change your filters criteria.
+              </p>
+            </div>
+          )}
+
+          {/* Restaurants list */}
           <div
             className={`flex-1 p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ${
               isFiltersSidebarOpen && "hidden"

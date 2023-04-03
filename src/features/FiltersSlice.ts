@@ -9,6 +9,7 @@ export interface FiltersState {
   sale: boolean;
   topEat: boolean;
   freeDelivery: boolean;
+  searchTerm: string;
 }
 
 const initialState: FiltersState = {
@@ -18,6 +19,7 @@ const initialState: FiltersState = {
   sale: false,
   topEat: false,
   freeDelivery: false,
+  searchTerm: "",
 };
 
 export const filtersSlice = createSlice({
@@ -30,6 +32,8 @@ export const filtersSlice = createSlice({
       state.foodCategory = initialState.foodCategory;
       state.sale = initialState.sale;
       state.topEat = initialState.topEat;
+      state.freeDelivery = initialState.freeDelivery;
+      state.searchTerm = initialState.searchTerm;
     },
     setDeliveryOptionFilter: (state, action: PayloadAction<DeliveryOption>) => {
       state.deliveryOption = action.payload;
@@ -49,6 +53,9 @@ export const filtersSlice = createSlice({
     toggleFreeDeliveryFilter: (state) => {
       state.freeDelivery = !state.freeDelivery;
     },
+    searchRestaurants: (state, action: PayloadAction<string>) => {
+      state.searchTerm = action.payload;
+    },
   },
 });
 
@@ -60,6 +67,7 @@ export const {
   toggleSaleFilter,
   toggleTopEatFilter,
   toggleFreeDeliveryFilter,
+  searchRestaurants,
 } = filtersSlice.actions;
 
 export default filtersSlice.reducer;

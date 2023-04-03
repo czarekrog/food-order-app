@@ -1,12 +1,16 @@
 import { BsCart4, BsSearch } from "react-icons/bs";
-import { BiUser } from "react-icons/bi";
+import { IoClose } from "react-icons/io5";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { CartSidebar } from "./CartSidebar";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../app/store";
 import { selectCartItemsCount } from "../../features/CartSlice";
-import { setDeliveryOptionFilter } from "../../features/FiltersSlice";
+import {
+  resetFilters,
+  searchRestaurants,
+  setDeliveryOptionFilter,
+} from "../../features/FiltersSlice";
 import DeliveryOption from "../../types/DeliveryOption";
 
 export const NavBar = () => {
@@ -17,7 +21,7 @@ export const NavBar = () => {
     selectCartItemsCount(state)
   );
 
-  const { deliveryOption } = useSelector(
+  const { deliveryOption, searchTerm } = useSelector(
     (state: RootState) => state.filtersReducer
   );
 
@@ -28,7 +32,11 @@ export const NavBar = () => {
   return (
     <div className="">
       <div className="w-full p-4 flex justify-between items-center gap-8 border-b-2 flex-wrap">
-        <Link to="/" className="text-3xl md:order-1">
+        <Link
+          to="/"
+          className="text-3xl md:order-1"
+          onClick={() => dispatch(resetFilters())}
+        >
           Foodify
         </Link>
         <div className="h-12 hidden md:flex items-center gap-1 bg-gray-200 px-2 rounded-full md:order-1">
@@ -58,6 +66,14 @@ export const NavBar = () => {
           <input
             className="flex-1 outline-none bg-inherit text-xl"
             placeholder="Search your favorite restaurant..."
+            value={searchTerm}
+            onChange={(e) => dispatch(searchRestaurants(e.target.value))}
+          />
+          <IoClose
+            className={`text-gray-500 text-2xl cursor-pointer ${
+              searchTerm ? "block" : "hidden"
+            }`}
+            onClick={() => dispatch(searchRestaurants(""))}
           />
         </div>
         <div className="flex gap-2 md:gap-6 order-2 md:order-3">
@@ -68,24 +84,6 @@ export const NavBar = () => {
             <BsCart4 />
             Cart · {cartItemsCount}
           </button>
-          <Link
-            to="auth/sign-in"
-            className="px-8 py-1 bg-gray-200 hover:bg-gray-300 rounded-full hidden md:block"
-          >
-            Sign In
-          </Link>
-          <Link
-            to="auth/sign-up"
-            className="px-8 py-1 bg-gray-200 hover:bg-gray-300 rounded-full hidden md:block"
-          >
-            Sign Up
-          </Link>
-          <Link
-            to=""
-            className="rounded-full md:hidden bg-gray-200 hover:bg-gray-300 w-8 aspect-square flex justify-center items-center"
-          >
-            <BiUser />
-          </Link>
         </div>
       </div>
       <CartSidebar isOpen={isOpen} toggle={toggleCartSidebar} />
