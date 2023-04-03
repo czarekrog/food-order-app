@@ -18,8 +18,12 @@ const initialState: CategoriesState = {
 export const fetchCategories = createAsyncThunk(
   "categories/fetchCategories",
   async (_, { rejectWithValue }) => {
+    const devEnv = process.env.NODE_ENV !== "production";
+    const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
     try {
-      const response = await axios.get("http://localhost:3004/categories");
+      const response = await axios.get(
+        `${devEnv ? REACT_APP_DEV_URL! : REACT_APP_PROD_URL!}/categories`
+      );
       return response.data as Category[];
     } catch (error) {
       return rejectWithValue(error);

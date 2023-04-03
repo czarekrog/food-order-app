@@ -25,8 +25,12 @@ type AddRatingActionPayload = {
 export const fetchRestaurants = createAsyncThunk(
   "restaurants/fetchRestaurants",
   async (_, { rejectWithValue }) => {
+    const devEnv = process.env.NODE_ENV !== "production";
+    const { REACT_APP_DEV_URL, REACT_APP_PROD_URL } = process.env;
     try {
-      const response = await axios.get("http://localhost:3004/restaurants");
+      const response = await axios.get(
+        `${devEnv ? REACT_APP_DEV_URL! : REACT_APP_PROD_URL!}/restaurants`
+      );
       const restaurants = response.data as Restaurant[];
       return restaurants.map((restaurant) => {
         return {
