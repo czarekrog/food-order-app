@@ -1,4 +1,5 @@
 import { IoClose } from "react-icons/io5";
+import { HiOutlineRocketLaunch } from "react-icons/hi2";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../app/store";
 import {
@@ -9,6 +10,7 @@ import {
 } from "../../features/CartSlice";
 import Restaurant from "../../types/Restaurant";
 import { BsTrash } from "react-icons/bs";
+import { toggleCheckoutModal } from "../../features/UISlice";
 
 type Props = {
   isOpen: boolean;
@@ -100,25 +102,38 @@ export const CartSidebar = ({ isOpen, toggle }: Props) => {
 
       {/* cart sidebar */}
       <div
-        className={`absolute opacity-0 right-0 top-0 bottom-0 bg-white border-l-2 transition-[width, padding, opacity] duration-300 z-20 ${
+        className={`fixed opacity-0 right-0 top-0 bottom-0 bg-white border-l-2 transition-[width, padding, opacity] duration-300 z-20 ${
           isOpen && "opacity-100 w-full md:w-80 p-4"
         }`}
       >
-        <div className="flex items-center">
-          <IoClose className="text-4xl cursor-pointer" onClick={toggle} />
-          <span className="flex-1 text-center text-2xl">Your Cart</span>
-        </div>
-        <div className="mt-8">
-          {items.length === 0 ? (
-            <span>No items to display...</span>
-          ) : (
-            <div>
-              {renderItems()}
-              <p className="mt-8 text-right text-xl font-medium">
-                Total: ${cartTotal.toFixed(2)}
-              </p>
-            </div>
-          )}
+        <div className="relative h-full">
+          <div className="flex">
+            <IoClose className="text-4xl cursor-pointer" onClick={toggle} />
+            <span className="flex-1 text-center text-2xl">Your Cart</span>
+          </div>
+          <div className="mt-8">
+            {items.length === 0 ? (
+              <span>No items to display...</span>
+            ) : (
+              <>
+                <div>
+                  {renderItems()}
+                  <p className="mt-8 text-right text-xl font-medium">
+                    Total: ${cartTotal.toFixed(2)}
+                  </p>
+                </div>
+                <div className="w-full py-4 absolute bottom-0 left-0 right-0 flex justify-center items-center">
+                  <button
+                    className="bg-black text-white text-lg px-8 py-2 rounded-lg outline-none hover:mb-4 transition-[margin-bottom] duration-300"
+                    onClick={() => dispatch(toggleCheckoutModal())}
+                  >
+                    Fast checkout
+                    <HiOutlineRocketLaunch className="inline ml-2 text-lg" />
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
         </div>
       </div>
     </div>

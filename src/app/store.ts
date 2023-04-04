@@ -3,6 +3,7 @@ import restaurantsReducer from "../features/RestaurantsSlice";
 import categoriesReducer from "../features/CategoriesSlice";
 import cartReducer from "../features/CartSlice";
 import filtersReducer from "../features/FiltersSlice";
+import uiReducer from "../features/UISlice";
 
 export const store = configureStore({
   reducer: {
@@ -10,6 +11,7 @@ export const store = configureStore({
     categoriesReducer,
     cartReducer,
     filtersReducer,
+    uiReducer,
   },
 });
 

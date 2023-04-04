@@ -15,7 +15,7 @@ export const CategoryItem = ({ id, name, iconUrl }: Props) => {
   const dispatch = useDispatch();
   return (
     <div
-      className={`flex flex-col h-24 w-20 items-center justify-center p-2 rounded-md hover:bg-gray-100 cursor-pointer transition-colors duration-200 ${
+      className={`flex flex-col h-24 w-24 items-center justify-center p-2 rounded-md hover:bg-gray-100 cursor-pointer transition-colors duration-200 ${
         id === foodCategory && "bg-gray-100"
       } ${id === null && foodCategory === null && "hidden"}`}
       onClick={() => dispatch(setFoodCategoryFilter(id))}
@@ -23,7 +23,7 @@ export const CategoryItem = ({ id, name, iconUrl }: Props) => {
       <img
         src={iconUrl}
         alt="Category icon"
-        className={`h-full aspect-square object-cover ${
+        className={`h-full aspect-square object-contain ${
           id === null && "hidden"
         }`}
       />
