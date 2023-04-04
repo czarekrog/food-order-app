@@ -9,6 +9,7 @@ import { SignUpForm } from "./components/Auth/SignUpForm";
 import { ForgotPasswordForm } from "./components/Auth/ForgotPasswordForm";
 import ScrollToTop from "./components/ScrollToTop";
 import { CheckoutModal } from "./components/UI/Modals/CheckoutModal";
+import { CartSidebar } from "./components/UI/Modals/CartSidebar";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <ScrollToTop />
+        <CartSidebar />
         <CheckoutModal />
         <MainLayout />
       </>

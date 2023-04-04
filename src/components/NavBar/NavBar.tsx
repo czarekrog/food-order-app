@@ -1,8 +1,7 @@
 import { BsCart4, BsSearch } from "react-icons/bs";
 import { IoClose } from "react-icons/io5";
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { CartSidebar } from "./CartSidebar";
+import { CartSidebar } from "../UI/Modals/CartSidebar";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../app/store";
 import { selectCartItemsCount } from "../../features/CartSlice";
@@ -12,9 +11,9 @@ import {
   setDeliveryOptionFilter,
 } from "../../features/FiltersSlice";
 import DeliveryOption from "../../types/DeliveryOption";
+import { toggleCartSidebar } from "../../features/UISlice";
 
 export const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
   const dispatch = useDispatch();
 
   const cartItemsCount = useSelector((state: RootState) =>
@@ -25,12 +24,8 @@ export const NavBar = () => {
     (state: RootState) => state.filtersReducer
   );
 
-  const toggleCartSidebar = () => {
-    setIsOpen((prev) => !prev);
-  };
-
   return (
-    <div className="">
+    <div>
       <div className="w-full p-4 flex justify-between items-center gap-8 border-b-2 flex-wrap">
         <Link
           to="/"
@@ -79,14 +74,13 @@ export const NavBar = () => {
         <div className="flex gap-2 md:gap-6 order-2 md:order-3">
           <button
             className="flex px-6 py-1 bg-black hover:bg-gray-800 text-white rounded-full gap-2 items-center"
-            onClick={toggleCartSidebar}
+            onClick={() => dispatch(toggleCartSidebar())}
           >
             <BsCart4 />
             Cart · {cartItemsCount}
           </button>
         </div>
       </div>
-      <CartSidebar isOpen={isOpen} toggle={toggleCartSidebar} />
     </div>
   );
 };
